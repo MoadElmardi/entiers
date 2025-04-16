@@ -1,0 +1,10 @@
+[package]
+name = "entiers"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tfhe = { version = "*", features = ["boolean", "shortint", "integer"] }
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+rayon = "1.10.0"
