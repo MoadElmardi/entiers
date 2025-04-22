@@ -1,7 +1,9 @@
-mod tri_liste;
+mod precision_temps {
+    pub mod tri_liste;
+}
 
 use std::time::Instant;
-use tri_liste::main as test_main;
+use precision_temps::tri_liste::main as test_main;
 
 fn main() {
     
