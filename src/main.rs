@@ -1,7 +1,7 @@
-mod deux_entiers;
+mod tri_liste;
 
 use std::time::Instant;
-use deux_entiers::main as test_main;
+use tri_liste::main as test_main;
 
 fn main() {
     
