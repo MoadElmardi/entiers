@@ -1,0 +1,1019 @@
+desc: (none)
+cmd: target/release/entiers
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=268391301
+mem_heap_B=60244776
+mem_heap_extra_B=6720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=572915454
+mem_heap_B=60499064
+mem_heap_extra_B=7640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=811373599
+mem_heap_B=60531320
+mem_heap_extra_B=7760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1095152231
+mem_heap_B=60531320
+mem_heap_extra_B=7760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1562000794
+mem_heap_B=60530968
+mem_heap_extra_B=7744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1898868844
+mem_heap_B=60530968
+mem_heap_extra_B=7744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2314618964
+mem_heap_B=60530968
+mem_heap_extra_B=7744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2546326995
+mem_heap_B=60530616
+mem_heap_extra_B=7728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2876987623
+mem_heap_B=60530968
+mem_heap_extra_B=7744
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60530968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 368920 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=3222242122
+mem_heap_B=60530616
+mem_heap_extra_B=7728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=3491878623
+mem_heap_B=60530616
+mem_heap_extra_B=7728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=3990498784
+mem_heap_B=60530616
+mem_heap_extra_B=7728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=4412434246
+mem_heap_B=60530616
+mem_heap_extra_B=7728
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60530616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 368568 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=4758841977
+mem_heap_B=60529912
+mem_heap_extra_B=7696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=4990081245
+mem_heap_B=60524552
+mem_heap_extra_B=7984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=5489216618
+mem_heap_B=60538024
+mem_heap_extra_B=8048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=5796384182
+mem_heap_B=60533064
+mem_heap_extra_B=7992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=6181191995
+mem_heap_B=60532712
+mem_heap_extra_B=7976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=6449964952
+mem_heap_B=60536968
+mem_heap_extra_B=8000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=6798269429
+mem_heap_B=60411208
+mem_heap_extra_B=7840
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60411208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 249160 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=7109141877
+mem_heap_B=60538376
+mem_heap_extra_B=8064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=7575689235
+mem_heap_B=60536968
+mem_heap_extra_B=8000
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60536968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 374920 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=7731391895
+mem_heap_B=60411208
+mem_heap_extra_B=7840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=8197942003
+mem_heap_B=60411208
+mem_heap_extra_B=7840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=8664509815
+mem_heap_B=60410504
+mem_heap_extra_B=7808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=9131060512
+mem_heap_B=60410152
+mem_heap_extra_B=7792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60410152 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 248104 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=9597641737
+mem_heap_B=60410856
+mem_heap_extra_B=7824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=10064204236
+mem_heap_B=60410504
+mem_heap_extra_B=7808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=10375082702
+mem_heap_B=60536968
+mem_heap_extra_B=8000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=10822436260
+mem_heap_B=60536616
+mem_heap_extra_B=7984
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60536616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 374568 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=11260416876
+mem_heap_B=60535912
+mem_heap_extra_B=7952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=11698410771
+mem_heap_B=60535560
+mem_heap_extra_B=7936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=12136408570
+mem_heap_B=60535912
+mem_heap_extra_B=7952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=12574403570
+mem_heap_B=60535912
+mem_heap_extra_B=7952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=13012396348
+mem_heap_B=60535208
+mem_heap_extra_B=7920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=13158771640
+mem_heap_B=60409448
+mem_heap_extra_B=7760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=13596774548
+mem_heap_B=60408744
+mem_heap_extra_B=7728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=14034780250
+mem_heap_B=60408392
+mem_heap_extra_B=7712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=14472798599
+mem_heap_B=60408744
+mem_heap_extra_B=7728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=14764444173
+mem_heap_B=60535560
+mem_heap_extra_B=7936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=15202447658
+mem_heap_B=60534504
+mem_heap_extra_B=7888
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60534504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 372456 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=15348821503
+mem_heap_B=60408392
+mem_heap_extra_B=7712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=15786826105
+mem_heap_B=60407688
+mem_heap_extra_B=7680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=16224846673
+mem_heap_B=60407688
+mem_heap_extra_B=7680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=16662867266
+mem_heap_B=60406632
+mem_heap_extra_B=7632
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60406632 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 244584 in 47 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=16954512742
+mem_heap_B=60533096
+mem_heap_extra_B=7824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=17246415608
+mem_heap_B=60266120
+mem_heap_extra_B=7392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=17549665350
+mem_heap_B=120853580
+mem_heap_extra_B=7668
+mem_stacks_B=0
+heap_tree=detailed
+n3: 120853580 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 60203008 0x2EC85D: __rdl_alloc (in /home/moad/numeros/entiers/target/release/entiers)
+  n2: 60178432 0x2C8692: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x145699: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+   n0: 16384 in 2 places, all below massif's threshold (1.00%)
+  n0: 24576 in 6 places, all below massif's threshold (1.00%)
+ n1: 60162048 0x181015: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60162048 0x15B86D: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x1455ED: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 488524 in 49 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=17695481747
+mem_heap_B=71025124
+mem_heap_extra_B=4540
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=17841871795
+mem_heap_B=71024420
+mem_heap_extra_B=4508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=17988265496
+mem_heap_B=71024420
+mem_heap_extra_B=4508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=18134657208
+mem_heap_B=71023716
+mem_heap_extra_B=4476
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=18209349171
+mem_heap_B=131239564
+mem_heap_extra_B=8500
+mem_stacks_B=0
+heap_tree=peak
+n4: 131239564 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 60295424 0x2EC85D: __rdl_alloc (in /home/moad/numeros/entiers/target/release/entiers)
+  n2: 60268544 0x2C8692: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x145699: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 60227584 0x137169: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60227584 0x17F20A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60227584 0x145261: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60227584 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60227584 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60227584 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60227584 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60227584 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60227584 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60227584 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60227584 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60227584 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 60227584 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n1: 10653048 0x136E05: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 10653048 0x163227: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 10653048 0x144F23: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 10653048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 10653048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 10653048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 10653048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 10653048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 10653048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 10653048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 10653048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 10653048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 10653048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 63508 in 56 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=18356078751
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=18502808327
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=18649537903
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=18796268410
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=18942997986
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=19089727568
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=19236457144
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=19383187649
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=19529917229
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=19676646805
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=detailed
+n4: 131239388 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 60295424 0x2EC85D: __rdl_alloc (in /home/moad/numeros/entiers/target/release/entiers)
+  n2: 60268544 0x2C8692: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x145699: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 60227584 0x137169: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60227584 0x17F20A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60227584 0x145261: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60227584 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60227584 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60227584 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60227584 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60227584 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60227584 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60227584 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60227584 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60227584 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 60227584 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n1: 10653048 0x136E05: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 10653048 0x163227: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 10653048 0x144F23: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 10653048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 10653048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 10653048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 10653048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 10653048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 10653048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 10653048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 10653048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 10653048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 10653048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 63332 in 56 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=19823376381
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=19970106888
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=20116836464
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=20263566046
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=20410295622
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=20557026127
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=20703755707
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=20850485283
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=20997214859
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=21143945366
+mem_heap_B=131239388
+mem_heap_extra_B=8492
+mem_stacks_B=0
+heap_tree=detailed
+n4: 131239388 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 60295424 0x2EC85D: __rdl_alloc (in /home/moad/numeros/entiers/target/release/entiers)
+  n2: 60268544 0x2C8692: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x145699: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 60227584 0x137169: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60227584 0x17F20A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60227584 0x145261: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60227584 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60227584 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60227584 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60227584 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60227584 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60227584 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60227584 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60227584 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60227584 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 60227584 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n1: 10653048 0x136E05: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 10653048 0x163227: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 10653048 0x144F23: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 10653048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 10653048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 10653048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 10653048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 10653048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 10653048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 10653048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 10653048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 10653048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 10653048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 63332 in 56 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=74
+#-----------
+time=21431119423
+mem_heap_B=131987467
+mem_heap_extra_B=8941
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=21649037086
+mem_heap_B=132020443
+mem_heap_extra_B=8981
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=21867149313
+mem_heap_B=132053419
+mem_heap_extra_B=9021
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=22085267634
+mem_heap_B=132086395
+mem_heap_extra_B=9061
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=22303393634
+mem_heap_B=132217611
+mem_heap_extra_B=9053
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=22521097801
+mem_heap_B=132217611
+mem_heap_extra_B=9053
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=22739079655
+mem_heap_B=132438826
+mem_heap_extra_B=9110
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=22957075673
+mem_heap_B=132298745
+mem_heap_extra_B=9047
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=23175147053
+mem_heap_B=132298745
+mem_heap_extra_B=9047
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=23393106058
+mem_heap_B=132298745
+mem_heap_extra_B=9047
+mem_stacks_B=0
+heap_tree=detailed
+n4: 132298745 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 60295424 0x2EC85D: __rdl_alloc (in /home/moad/numeros/entiers/target/release/entiers)
+  n2: 60268544 0x2C8692: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60162048 0x145699: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60162048 0x144ED1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60162048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60162048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60162048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60162048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60162048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60162048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60162048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60162048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+             n1: 60162048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+              n0: 60162048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 60227584 0x137169: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 60227584 0x17F20A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 60227584 0x145261: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 60227584 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 60227584 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 60227584 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 60227584 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 60227584 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 60227584 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 60227584 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 60227584 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 60227584 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 60227584 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n1: 10653048 0x136E05: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/entiers)
+  n1: 10653048 0x163227: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+   n1: 10653048 0x144F23: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+    n1: 10653048 0x183582: tfhe::shortint::server_key::ServerKey::new_with_max_degree (in /home/moad/numeros/entiers/target/release/entiers)
+     n1: 10653048 0x186E7F: tfhe::high_level_api::keys::inner::IntegerServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+      n1: 10653048 0x152E73: tfhe::high_level_api::keys::server::ServerKey::new (in /home/moad/numeros/entiers/target/release/entiers)
+       n1: 10653048 0x186319: tfhe::high_level_api::keys::client::ClientKey::generate_server_key (in /home/moad/numeros/entiers/target/release/entiers)
+        n1: 10653048 0x120E51: entiers::consommation::addition::main (in /home/moad/numeros/entiers/target/release/entiers)
+         n1: 10653048 0x1225F9: entiers::main (in /home/moad/numeros/entiers/target/release/entiers)
+          n1: 10653048 0x11FB02: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/entiers)
+           n1: 10653048 0x11FEB8: _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h13583013fde8f377E.llvm.11411455431085071822 (in /home/moad/numeros/entiers/target/release/entiers)
+            n1: 10653048 0x2E432F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/entiers)
+             n0: 10653048 0x122684: main (in /home/moad/numeros/entiers/target/release/entiers)
+ n0: 1122689 in 88 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=84
+#-----------
+time=23611112558
+mem_heap_B=132298745
+mem_heap_extra_B=9047
+mem_stacks_B=0
+heap_tree=empty

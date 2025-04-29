@@ -1,0 +1,729 @@
+*** Addition de deux entiers:
+
+Memory used by encryption a: 128 KB
+Memory used by encryption b: 0 KB
+Memory used by addition: 1280 KB
+Memory used by decryption: 0 KB
+
+Command being timed: "cargo run --release"
+        User time (seconds): 5.90
+        System time (seconds): 0.29
+        Percent of CPU this job got: 262%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.36
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 202392
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 130010
+        Voluntary context switches: 270
+        Involuntary context switches: 1539
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 10232
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+*** Addition de deux entiers FheUint8:
+Maximum resident set size (kbytes): 134940
+
+*** Addition de deux entiers FheUint16:
+Maximum resident set size (kbytes): 136692
+
+*** Addition de deux entiers FheUint32:
+Maximum resident set size (kbytes): 136644
+
+*** Addition de deux entiers FheUint64:
+Maximum resident set size (kbytes): 138308
+
+*** Addition de deux entiers FheUint128:
+Maximum resident set size (kbytes): 141928
+
+*** Addition de deux entiers FheUint8:
+9010:   ./target/release/addition
+Address           Kbytes     RSS   Dirty Mode  Mapping
+0000598b3256e000      64      64       0 r---- addition
+0000598b3257e000    2040    1912       0 r-x-- addition
+0000598b3277c000     264      80       0 r---- addition
+0000598b327bf000      44      44      44 r---- addition
+0000598b327ca000       4       4       4 rw--- addition
+0000598b64494000     876     784     784 rw---   [ anon ]
+000070a7f4d2e000  117576  117576  117576 rw---   [ anon ]
+000070a7fc000000     164     164     164 rw---   [ anon ]
+000070a7fc029000   65372       0       0 -----   [ anon ]
+000070a800000000     164     164     164 rw---   [ anon ]
+000070a800029000   65372       0       0 -----   [ anon ]
+000070a804000000     164     164     164 rw---   [ anon ]
+000070a804029000   65372       0       0 -----   [ anon ]
+000070a808000000     168     168     168 rw---   [ anon ]
+000070a80802a000   65368       0       0 -----   [ anon ]
+000070a80c000000     348     348     348 rw---   [ anon ]
+000070a80c057000   65188       0       0 -----   [ anon ]
+000070a810000000     348     348     348 rw---   [ anon ]
+000070a810057000   65188       0       0 -----   [ anon ]
+000070a814000000     348     348     348 rw---   [ anon ]
+000070a814057000   65188       0       0 -----   [ anon ]
+000070a8189ff000       4       0       0 -----   [ anon ]
+000070a818a00000    2048      68      68 rw---   [ anon ]
+000070a81c000000     352     352     352 rw---   [ anon ]
+000070a81c058000   65184       0       0 -----   [ anon ]
+000070a820278000       4       0       0 -----   [ anon ]
+000070a820279000    2048      92      92 rw---   [ anon ]
+000070a820479000       4       0       0 -----   [ anon ]
+000070a82047a000    2048      72      72 rw---   [ anon ]
+000070a82067a000       4       0       0 -----   [ anon ]
+000070a82067b000    2048     112     112 rw---   [ anon ]
+000070a82087b000       4       0       0 -----   [ anon ]
+000070a82087c000    2048      88      88 rw---   [ anon ]
+000070a820a7c000       4       0       0 -----   [ anon ]
+000070a820a7d000    2048     124     124 rw---   [ anon ]
+000070a820c7d000       4       0       0 -----   [ anon ]
+000070a820c7e000    2048      72      72 rw---   [ anon ]
+000070a820e7e000       4       0       0 -----   [ anon ]
+000070a820e7f000    2048     116     116 rw---   [ anon ]
+000070a823fb7000   10404   10404   10404 rw---   [ anon ]
+000070a8249e0000      12      12       0 r---- libgcc_s.so.1
+000070a8249e3000      92      64       0 r-x-- libgcc_s.so.1
+000070a8249fa000      16      16       0 r---- libgcc_s.so.1
+000070a8249fe000       4       4       4 r---- libgcc_s.so.1
+000070a8249ff000       4       4       4 rw--- libgcc_s.so.1
+000070a824a00000     160     160       0 r---- libc.so.6
+000070a824a28000    1620    1036       0 r-x-- libc.so.6
+000070a824bbd000     352     124       0 r---- libc.so.6
+000070a824c15000       4       0       0 ----- libc.so.6
+000070a824c16000      16      16      16 r---- libc.so.6
+000070a824c1a000       8       8       8 rw--- libc.so.6
+000070a824c1c000      52      20      20 rw---   [ anon ]
+000070a824c33000       4       0       0 -----   [ anon ]
+000070a824c34000       8       0       0 rw---   [ anon ]
+000070a824c36000       4       0       0 -----   [ anon ]
+000070a824c37000       8       0       0 rw---   [ anon ]
+000070a824c39000       4       0       0 -----   [ anon ]
+000070a824c3a000       8       0       0 rw---   [ anon ]
+000070a824c3c000       4       0       0 -----   [ anon ]
+000070a824c3d000       8       0       0 rw---   [ anon ]
+000070a824c3f000       8       8       8 rw---   [ anon ]
+000070a824c41000      56      56       0 r---- libm.so.6
+000070a824c4f000     496     308       0 r-x-- libm.so.6
+000070a824ccb000     364     208       0 r---- libm.so.6
+000070a824d26000       4       4       4 r---- libm.so.6
+000070a824d27000       4       4       4 rw--- libm.so.6
+000070a824d2a000       4       0       0 -----   [ anon ]
+000070a824d2b000       8       0       0 rw---   [ anon ]
+000070a824d2d000       4       0       0 -----   [ anon ]
+000070a824d2e000       8       0       0 rw---   [ anon ]
+000070a824d30000       4       0       0 -----   [ anon ]
+000070a824d31000       8       0       0 rw---   [ anon ]
+000070a824d33000       4       0       0 -----   [ anon ]
+000070a824d34000       8       0       0 rw---   [ anon ]
+000070a824d36000       4       0       0 -----   [ anon ]
+000070a824d37000       8       0       0 rw---   [ anon ]
+000070a824d39000       8       8       8 rw---   [ anon ]
+000070a824d3b000       8       8       0 r---- ld-linux-x86-64.so.2
+000070a824d3d000     168     168       0 r-x-- ld-linux-x86-64.so.2
+000070a824d67000      44      40       0 r---- ld-linux-x86-64.so.2
+000070a824d73000       8       8       8 r---- ld-linux-x86-64.so.2
+000070a824d75000       8       8       8 rw--- ld-linux-x86-64.so.2
+00007fffcbb78000     136      28      28 rw---   [ stack ]
+00007fffcbbc1000      16       0       0 r----   [ anon ]
+00007fffcbbc5000       8       4       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB          675764  135992  131732
+
+*** Addition de deux entiers FheUint128:
+13411:   ./target/release/addition
+Address           Kbytes     RSS   Dirty Mode  Mapping
+000057cb661ac000      64      64       0 r---- addition
+000057cb661bc000    2036    1844       0 r-x-- addition
+000057cb663b9000     264      92       0 r---- addition
+000057cb663fc000      44      44      44 r---- addition
+000057cb66407000       4       4       4 rw--- addition
+000057cb725de000    3696    3696    3696 rw---   [ anon ]
+0000709ffcd2e000  117576  117576  117576 rw---   [ anon ]
+000070a004000000     572     572     572 rw---   [ anon ]
+000070a00408f000   64964       0       0 -----   [ anon ]
+000070a008000000     508     508     508 rw---   [ anon ]
+000070a00807f000   65028       0       0 -----   [ anon ]
+000070a00c000000     540     540     540 rw---   [ anon ]
+000070a00c087000   64996       0       0 -----   [ anon ]
+000070a010000000     540     540     540 rw---   [ anon ]
+000070a010087000   64996       0       0 -----   [ anon ]
+000070a014000000     532     532     532 rw---   [ anon ]
+000070a014085000   65004       0       0 -----   [ anon ]
+000070a018000000     540     540     540 rw---   [ anon ]
+000070a018087000   64996       0       0 -----   [ anon ]
+000070a01c000000     540     540     540 rw---   [ anon ]
+000070a01c087000   64996       0       0 -----   [ anon ]
+000070a0209ff000       4       0       0 -----   [ anon ]
+000070a020a00000    2048     104     104 rw---   [ anon ]
+000070a024000000     544     544     544 rw---   [ anon ]
+000070a024088000   64992       0       0 -----   [ anon ]
+000070a0283b1000       4       0       0 -----   [ anon ]
+000070a0283b2000    2048      76      76 rw---   [ anon ]
+000070a0285b2000       4       0       0 -----   [ anon ]
+000070a0285b3000    2048      72      72 rw---   [ anon ]
+000070a0287b3000       4       0       0 -----   [ anon ]
+000070a0287b4000    2048      60      60 rw---   [ anon ]
+000070a0289b4000       4       0       0 -----   [ anon ]
+000070a0289b5000    2048      92      92 rw---   [ anon ]
+000070a028bb5000       4       0       0 -----   [ anon ]
+000070a028bb6000    2048      68      68 rw---   [ anon ]
+000070a028db6000       4       0       0 -----   [ anon ]
+000070a028db7000    2048      60      60 rw---   [ anon ]
+000070a028fb7000       4       0       0 -----   [ anon ]
+000070a028fb8000    2048      60      60 rw---   [ anon ]
+000070a02c0f0000   10404   10404   10404 rw---   [ anon ]
+000070a02cb19000      56      56       0 r---- libm.so.6
+000070a02cb27000     496     284       0 r-x-- libm.so.6
+000070a02cba3000     364     176       0 r---- libm.so.6
+000070a02cbfe000       4       4       4 r---- libm.so.6
+000070a02cbff000       4       4       4 rw--- libm.so.6
+000070a02cc00000     160     160       0 r---- libc.so.6
+000070a02cc28000    1620    1036       0 r-x-- libc.so.6
+000070a02cdbd000     352     124       0 r---- libc.so.6
+000070a02ce15000       4       0       0 ----- libc.so.6
+000070a02ce16000      16      16      16 r---- libc.so.6
+000070a02ce1a000       8       8       8 rw--- libc.so.6
+000070a02ce1c000      52      20      20 rw---   [ anon ]
+000070a02cecf000       4       0       0 -----   [ anon ]
+000070a02ced0000       8       0       0 rw---   [ anon ]
+000070a02ced2000       4       0       0 -----   [ anon ]
+000070a02ced3000       8       0       0 rw---   [ anon ]
+000070a02ced5000       4       0       0 -----   [ anon ]
+000070a02ced6000       8       0       0 rw---   [ anon ]
+000070a02ced8000       4       0       0 -----   [ anon ]
+000070a02ced9000       8       0       0 rw---   [ anon ]
+000070a02cedb000       8       8       8 rw---   [ anon ]
+000070a02cedd000      12      12       0 r---- libgcc_s.so.1
+000070a02cee0000      92      64       0 r-x-- libgcc_s.so.1
+000070a02cef7000      16      16       0 r---- libgcc_s.so.1
+000070a02cefb000       4       4       4 r---- libgcc_s.so.1
+000070a02cefc000       4       4       4 rw--- libgcc_s.so.1
+000070a02ceff000       4       0       0 -----   [ anon ]
+000070a02cf00000       8       0       0 rw---   [ anon ]
+000070a02cf02000       4       0       0 -----   [ anon ]
+000070a02cf03000       8       0       0 rw---   [ anon ]
+000070a02cf05000       4       0       0 -----   [ anon ]
+000070a02cf06000       8       0       0 rw---   [ anon ]
+000070a02cf08000       4       0       0 -----   [ anon ]
+000070a02cf09000       8       0       0 rw---   [ anon ]
+000070a02cf0b000       4       0       0 -----   [ anon ]
+000070a02cf0c000       8       0       0 rw---   [ anon ]
+000070a02cf0e000       8       8       8 rw---   [ anon ]
+000070a02cf10000       8       8       0 r---- ld-linux-x86-64.so.2
+000070a02cf12000     168     168       0 r-x-- ld-linux-x86-64.so.2
+000070a02cf3c000      44      44       0 r---- ld-linux-x86-64.so.2
+000070a02cf48000       8       8       8 r---- ld-linux-x86-64.so.2
+000070a02cf4a000       8       8       8 rw--- ld-linux-x86-64.so.2
+00007fff5ea47000     136      32      32 rw---   [ stack ]
+00007fff5eb9b000      16       0       0 r----   [ anon ]
+00007fff5eb9f000       8       4       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB          678580  140908  136756
+
+*** Addition de deux entiers FheUint8:
+74787:   ./target/debug/additionpmap
+Address           Kbytes     RSS   Dirty Mode  Mapping
+00005f6a1231c000     260     260       0 r---- additionpmap
+00005f6a1235d000    8416    5728       0 r-x-- additionpmap
+00005f6a12b95000     752     108       0 r---- additionpmap
+00005f6a12c52000     132     132     132 r---- additionpmap
+00005f6a12c73000       4       4       4 rw--- additionpmap
+00005f6a5097c000     848     800     800 rw---   [ anon ]
+000070db58000000     164     164     164 rw---   [ anon ]
+000070db58029000   65372       0       0 -----   [ anon ]
+000070db60000000     356     356     356 rw---   [ anon ]
+000070db60059000   65180       0       0 -----   [ anon ]
+000070db64000000     164     164     164 rw---   [ anon ]
+000070db64029000   65372       0       0 -----   [ anon ]
+000070db6c000000     164     164     164 rw---   [ anon ]
+000070db6c029000   65372       0       0 -----   [ anon ]
+000070db70000000     164     164     164 rw---   [ anon ]
+000070db70029000   65372       0       0 -----   [ anon ]
+000070db74600000   58820   58820   58820 rw---   [ anon ]
+000070db78000000     356     356     356 rw---   [ anon ]
+000070db78059000   65180       0       0 -----   [ anon ]
+000070db7c000000     356     356     356 rw---   [ anon ]
+000070db7c059000   65180       0       0 -----   [ anon ]
+000070db80600000   58756   58756   58756 rw---   [ anon ]
+000070db84000000     360     360     360 rw---   [ anon ]
+000070db8405a000   65176       0       0 -----   [ anon ]
+000070db89400000       4       0       0 -----   [ anon ]
+000070db89401000    2048     316     316 rw---   [ anon ]
+000070db89800000       4       0       0 -----   [ anon ]
+000070db89801000    2048     244     244 rw---   [ anon ]
+000070db89c00000       4       0       0 -----   [ anon ]
+000070db89c01000    2048     384     384 rw---   [ anon ]
+000070db8a000000       4       0       0 -----   [ anon ]
+000070db8a001000    2048     260     260 rw---   [ anon ]
+000070db8a400000       4       0       0 -----   [ anon ]
+000070db8a401000    2048     328     328 rw---   [ anon ]
+000070db8a800000       4       0       0 -----   [ anon ]
+000070db8a801000    2048     424     424 rw---   [ anon ]
+000070db8ac00000       4       0       0 -----   [ anon ]
+000070db8ac01000    2048     336     336 rw---   [ anon ]
+000070db8b000000       4       0       0 -----   [ anon ]
+000070db8b001000    2048     424     424 rw---   [ anon ]
+000070db8e400000   10404   10404   10404 rw---   [ anon ]
+000070db8ef19000      56      56       0 r---- libm.so.6
+000070db8ef27000     496     292       0 r-x-- libm.so.6
+000070db8efa3000     364     180       0 r---- libm.so.6
+000070db8effe000       4       4       4 r---- libm.so.6
+000070db8efff000       4       4       4 rw--- libm.so.6
+000070db8f000000     160     160       0 r---- libc.so.6
+000070db8f028000    1620    1056       0 r-x-- libc.so.6
+000070db8f1bd000     352     128       0 r---- libc.so.6
+000070db8f215000       4       0       0 ----- libc.so.6
+000070db8f216000      16      16      16 r---- libc.so.6
+000070db8f21a000       8       8       8 rw--- libc.so.6
+000070db8f21c000      52      20      20 rw---   [ anon ]
+000070db8f276000       4       0       0 -----   [ anon ]
+000070db8f277000       8       0       0 rw---   [ anon ]
+000070db8f279000       4       0       0 -----   [ anon ]
+000070db8f27a000       8       0       0 rw---   [ anon ]
+000070db8f27c000       4       0       0 -----   [ anon ]
+000070db8f27d000       8       0       0 rw---   [ anon ]
+000070db8f27f000       4       0       0 -----   [ anon ]
+000070db8f280000       8       0       0 rw---   [ anon ]
+000070db8f282000       8       8       8 rw---   [ anon ]
+000070db8f284000      12      12       0 r---- libgcc_s.so.1
+000070db8f287000      92      64       0 r-x-- libgcc_s.so.1
+000070db8f29e000      16      16       0 r---- libgcc_s.so.1
+000070db8f2a2000       4       4       4 r---- libgcc_s.so.1
+000070db8f2a3000       4       4       4 rw--- libgcc_s.so.1
+000070db8f2a6000       4       0       0 -----   [ anon ]
+000070db8f2a7000       8       0       0 rw---   [ anon ]
+000070db8f2a9000       4       0       0 -----   [ anon ]
+000070db8f2aa000       8       0       0 rw---   [ anon ]
+000070db8f2ac000       4       0       0 -----   [ anon ]
+000070db8f2ad000       8       0       0 rw---   [ anon ]
+000070db8f2af000       4       0       0 -----   [ anon ]
+000070db8f2b0000       8       0       0 rw---   [ anon ]
+000070db8f2b2000       4       0       0 -----   [ anon ]
+000070db8f2b3000       8       0       0 rw---   [ anon ]
+000070db8f2b5000       8       8       8 rw---   [ anon ]
+000070db8f2b7000       8       8       0 r---- ld-linux-x86-64.so.2
+000070db8f2b9000     168     168       0 r-x-- ld-linux-x86-64.so.2
+000070db8f2e3000      44      44       0 r---- ld-linux-x86-64.so.2
+000070db8f2ef000       8       8       8 r---- ld-linux-x86-64.so.2
+000070db8f2f1000       8       8       8 rw--- ld-linux-x86-64.so.2
+00007ffd44617000     240     240     240 rw---   [ stack ]
+00007ffd44713000      16       0       0 r----   [ anon ]
+00007ffd44717000       8       4       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB          682988  142332  134048
+
+*** Addition de deux entiers FheUint128:
+78979:   ./target/debug/additionpmap
+Address           Kbytes     RSS   Dirty Mode  Mapping
+0000580bbc411000     260     260       0 r---- additionpmap
+0000580bbc452000    8416    5984       0 r-x-- additionpmap
+0000580bbcc8a000     752     152       0 r---- additionpmap
+0000580bbcd47000     132     132     132 r---- additionpmap
+0000580bbcd68000       4       4       4 rw--- additionpmap
+0000580beda3d000    3696    3696    3696 rw---   [ anon ]
+00007c4228000000     540     540     540 rw---   [ anon ]
+00007c4228087000   64996       0       0 -----   [ anon ]
+00007c4230000000     540     540     540 rw---   [ anon ]
+00007c4230087000   64996       0       0 -----   [ anon ]
+00007c4234000000     540     540     540 rw---   [ anon ]
+00007c4234087000   64996       0       0 -----   [ anon ]
+00007c4238600000   58820   58820   58820 rw---   [ anon ]
+00007c423c000000     540     540     540 rw---   [ anon ]
+00007c423c087000   64996       0       0 -----   [ anon ]
+00007c4240000000     540     540     540 rw---   [ anon ]
+00007c4240087000   64996       0       0 -----   [ anon ]
+00007c4244600000   58756   58756   58756 rw---   [ anon ]
+00007c4248000000     540     540     540 rw---   [ anon ]
+00007c4248087000   64996       0       0 -----   [ anon ]
+00007c424c000000     544     544     544 rw---   [ anon ]
+00007c424c088000   64992       0       0 -----   [ anon ]
+00007c4253400000       4       0       0 -----   [ anon ]
+00007c4253401000    2048     368     368 rw---   [ anon ]
+00007c4253800000       4       0       0 -----   [ anon ]
+00007c4253801000    2048     360     360 rw---   [ anon ]
+00007c4253c00000       4       0       0 -----   [ anon ]
+00007c4253c01000    2048     344     344 rw---   [ anon ]
+00007c4254000000     532     532     532 rw---   [ anon ]
+00007c4254085000   65004       0       0 -----   [ anon ]
+00007c4258400000       4       0       0 -----   [ anon ]
+00007c4258401000    2048     344     344 rw---   [ anon ]
+00007c4258800000       4       0       0 -----   [ anon ]
+00007c4258801000    2048     332     332 rw---   [ anon ]
+00007c4258c00000       4       0       0 -----   [ anon ]
+00007c4258c01000    2048     320     320 rw---   [ anon ]
+00007c4259000000       4       0       0 -----   [ anon ]
+00007c4259001000    2048     316     316 rw---   [ anon ]
+00007c4259400000       4       0       0 -----   [ anon ]
+00007c4259401000    2048     344     344 rw---   [ anon ]
+00007c425c600000   10404   10404   10404 rw---   [ anon ]
+00007c425d1e0000      12      12       0 r---- libgcc_s.so.1
+00007c425d1e3000      92      64       0 r-x-- libgcc_s.so.1
+00007c425d1fa000      16      16       0 r---- libgcc_s.so.1
+00007c425d1fe000       4       4       4 r---- libgcc_s.so.1
+00007c425d1ff000       4       4       4 rw--- libgcc_s.so.1
+00007c425d200000     160     160       0 r---- libc.so.6
+00007c425d228000    1620    1056       0 r-x-- libc.so.6
+00007c425d3bd000     352     128       0 r---- libc.so.6
+00007c425d415000       4       0       0 ----- libc.so.6
+00007c425d416000      16      16      16 r---- libc.so.6
+00007c425d41a000       8       8       8 rw--- libc.so.6
+00007c425d41c000      52      20      20 rw---   [ anon ]
+00007c425d435000       4       0       0 -----   [ anon ]
+00007c425d436000       8       0       0 rw---   [ anon ]
+00007c425d438000       4       0       0 -----   [ anon ]
+00007c425d439000       8       0       0 rw---   [ anon ]
+00007c425d43b000       4       0       0 -----   [ anon ]
+00007c425d43c000       8       0       0 rw---   [ anon ]
+00007c425d43e000       4       0       0 -----   [ anon ]
+00007c425d43f000       8       0       0 rw---   [ anon ]
+00007c425d441000       8       8       8 rw---   [ anon ]
+00007c425d443000      56      56       0 r---- libm.so.6
+00007c425d451000     496     316       0 r-x-- libm.so.6
+00007c425d4cd000     364     140       0 r---- libm.so.6
+00007c425d528000       4       4       4 r---- libm.so.6
+00007c425d529000       4       4       4 rw--- libm.so.6
+00007c425d52c000       4       0       0 -----   [ anon ]
+00007c425d52d000       8       0       0 rw---   [ anon ]
+00007c425d52f000       4       0       0 -----   [ anon ]
+00007c425d530000       8       0       0 rw---   [ anon ]
+00007c425d532000       4       0       0 -----   [ anon ]
+00007c425d533000       8       0       0 rw---   [ anon ]
+00007c425d535000       4       0       0 -----   [ anon ]
+00007c425d536000       8       0       0 rw---   [ anon ]
+00007c425d538000       4       0       0 -----   [ anon ]
+00007c425d539000       8       0       0 rw---   [ anon ]
+00007c425d53b000       8       8       8 rw---   [ anon ]
+00007c425d53d000       8       8       0 r---- ld-linux-x86-64.so.2
+00007c425d53f000     168     168       0 r-x-- ld-linux-x86-64.so.2
+00007c425d569000      44      44       0 r---- ld-linux-x86-64.so.2
+00007c425d575000       8       8       8 r---- ld-linux-x86-64.so.2
+00007c425d577000       8       8       8 rw--- ld-linux-x86-64.so.2
+00007ffd4de9c000     248     244     244 rw---   [ stack ]
+00007ffd4df38000      16       0       0 r----   [ anon ]
+00007ffd4df3c000       8       4       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB          685844  147760  139192
+
+*** Addition de deux entiers en utilisant shortint::PARAM_MESSAGE_1_CARRY_1_KS_PBS_32_BITS:
+Command being timed: "./target/release/additionshortint"
+        User time (seconds): 4.55
+        System time (seconds): 0.07
+        Percent of CPU this job got: 425%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.08
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 131712
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 42264
+        Voluntary context switches: 76
+        Involuntary context switches: 304
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_3_CARRY_2_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Command being timed: "./target/release/additionshortint"
+        User time (seconds): 12.62
+        System time (seconds): 0.19
+        Percent of CPU this job got: 356%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.59
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 404680
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 130341
+        Voluntary context switches: 118
+        Involuntary context switches: 582
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+
+*** Multiplication de deux entiers FheUint8:
+82468:   ./target/debug/multiplicationpmap
+Address           Kbytes     RSS   Dirty Mode  Mapping
+00005c5bcaa16000     276     276       0 r---- multiplicationpmap
+00005c5bcaa5b000    8720    6480       0 r-x-- multiplicationpmap
+00005c5bcb2df000     828     132       0 r---- multiplicationpmap
+00005c5bcb3af000     140     140     140 r---- multiplicationpmap
+00005c5bcb3d2000       4       4       4 rw--- multiplicationpmap
+00005c5bd2768000     556     428     428 rw---   [ anon ]
+00007d3aa4000000     356     356     356 rw---   [ anon ]
+00007d3aa4059000   65180       0       0 -----   [ anon ]
+00007d3aac000000     356     356     356 rw---   [ anon ]
+00007d3aac059000   65180       0       0 -----   [ anon ]
+00007d3ab0000000     356     356     356 rw---   [ anon ]
+00007d3ab0059000   65180       0       0 -----   [ anon ]
+00007d3ab8000000     356     356     356 rw---   [ anon ]
+00007d3ab8059000   65180       0       0 -----   [ anon ]
+00007d3abc000000     356     356     356 rw---   [ anon ]
+00007d3abc059000   65180       0       0 -----   [ anon ]
+00007d3ac0600000   58820   58820   58820 rw---   [ anon ]
+00007d3ac4000000     388     388     388 rw---   [ anon ]
+00007d3ac4061000   65148       0       0 -----   [ anon ]
+00007d3ac8000000     356     356     356 rw---   [ anon ]
+00007d3ac8059000   65180       0       0 -----   [ anon ]
+00007d3acc600000   58756   58756   58756 rw---   [ anon ]
+00007d3ad0000000     432     432     432 rw---   [ anon ]
+00007d3ad006c000   65104       0       0 -----   [ anon ]
+00007d3ad5e00000       4       0       0 -----   [ anon ]
+00007d3ad5e01000    2048     284     284 rw---   [ anon ]
+00007d3ad6200000       4       0       0 -----   [ anon ]
+00007d3ad6201000    2048     240     240 rw---   [ anon ]
+00007d3ad6600000       4       0       0 -----   [ anon ]
+00007d3ad6601000    2048     428     428 rw---   [ anon ]
+00007d3ad6a00000       4       0       0 -----   [ anon ]
+00007d3ad6a01000    2048     340     340 rw---   [ anon ]
+00007d3ad6e00000       4       0       0 -----   [ anon ]
+00007d3ad6e01000    2048     268     268 rw---   [ anon ]
+00007d3ad7200000       4       0       0 -----   [ anon ]
+00007d3ad7201000    2048     296     296 rw---   [ anon ]
+00007d3ad7600000       4       0       0 -----   [ anon ]
+00007d3ad7601000    2048     248     248 rw---   [ anon ]
+00007d3ad7a00000       4       0       0 -----   [ anon ]
+00007d3ad7a01000    2048     248     248 rw---   [ anon ]
+00007d3adae00000   10404   10404   10404 rw---   [ anon ]
+00007d3adb919000      56      56       0 r---- libm.so.6
+00007d3adb927000     496     292       0 r-x-- libm.so.6
+00007d3adb9a3000     364     180       0 r---- libm.so.6
+00007d3adb9fe000       4       4       4 r---- libm.so.6
+00007d3adb9ff000       4       4       4 rw--- libm.so.6
+00007d3adba00000     160     160       0 r---- libc.so.6
+00007d3adba28000    1620    1056       0 r-x-- libc.so.6
+00007d3adbbbd000     352     128       0 r---- libc.so.6
+00007d3adbc15000       4       0       0 ----- libc.so.6
+00007d3adbc16000      16      16      16 r---- libc.so.6
+00007d3adbc1a000       8       8       8 rw--- libc.so.6
+00007d3adbc1c000      52      20      20 rw---   [ anon ]
+00007d3adbc2e000       4       0       0 -----   [ anon ]
+00007d3adbc2f000       8       0       0 rw---   [ anon ]
+00007d3adbc31000       4       0       0 -----   [ anon ]
+00007d3adbc32000       8       0       0 rw---   [ anon ]
+00007d3adbc34000       4       0       0 -----   [ anon ]
+00007d3adbc35000       8       0       0 rw---   [ anon ]
+00007d3adbc37000       4       0       0 -----   [ anon ]
+00007d3adbc38000       8       0       0 rw---   [ anon ]
+00007d3adbc3a000       8       8       8 rw---   [ anon ]
+00007d3adbc3c000      12      12       0 r---- libgcc_s.so.1
+00007d3adbc3f000      92      64       0 r-x-- libgcc_s.so.1
+00007d3adbc56000      16      16       0 r---- libgcc_s.so.1
+00007d3adbc5a000       4       4       4 r---- libgcc_s.so.1
+00007d3adbc5b000       4       4       4 rw--- libgcc_s.so.1
+00007d3adbc5e000       4       0       0 -----   [ anon ]
+00007d3adbc5f000       8       0       0 rw---   [ anon ]
+00007d3adbc61000       4       0       0 -----   [ anon ]
+00007d3adbc62000       8       0       0 rw---   [ anon ]
+00007d3adbc64000       4       0       0 -----   [ anon ]
+00007d3adbc65000       8       0       0 rw---   [ anon ]
+00007d3adbc67000       4       0       0 -----   [ anon ]
+00007d3adbc68000       8       0       0 rw---   [ anon ]
+00007d3adbc6a000       4       0       0 -----   [ anon ]
+00007d3adbc6b000       8       0       0 rw---   [ anon ]
+00007d3adbc6d000       8       8       8 rw---   [ anon ]
+00007d3adbc6f000       8       8       0 r---- ld-linux-x86-64.so.2
+00007d3adbc71000     168     168       0 r-x-- ld-linux-x86-64.so.2
+00007d3adbc9b000      44      44       0 r---- ld-linux-x86-64.so.2
+00007d3adbca7000       8       8       8 r---- ld-linux-x86-64.so.2
+00007d3adbca9000       8       8       8 rw--- ld-linux-x86-64.so.2
+00007ffd4572b000     244     244     244 rw---   [ stack ]
+00007ffd457d1000      16       0       0 r----   [ anon ]
+00007ffd457d5000       8       4       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB          683104  143272  134196
+
+*** Multiplication de deux entiers FheUint128:
+
+15632:   target/release/multiplicationpmap
+Address           Kbytes     RSS   Dirty Mode  Mapping
+00005dba1ac82000      64      64       0 r---- multiplicationpmap
+00005dba1ac92000    2132    2004       0 r-x-- multiplicationpmap
+00005dba1aea7000     292     100       0 r---- multiplicationpmap
+00005dba1aef0000      48      48      48 r---- multiplicationpmap
+00005dba1aefc000       4       4       4 rw--- multiplicationpmap
+00005dba4c12f000    3820    3804    3804 rw---   [ anon ]
+00007b3be468f000   58820   58820   58820 rw---   [ anon ]
+00007b3be8000000    9552    4892    4892 rw---   [ anon ]
+00007b3be8954000   55984       0       0 -----   [ anon ]
+00007b3bec000000   19860   18712   18712 rw---   [ anon ]
+00007b3bed365000   45676       0       0 -----   [ anon ]
+00007b3bf0000000   32236   29828   29828 rw---   [ anon ]
+00007b3bf1f7b000   33300       0       0 -----   [ anon ]
+00007b3bf469f000   58756   58756   58756 rw---   [ anon ]
+00007b3bf8000000   17800   17800   17800 rw---   [ anon ]
+00007b3bf9162000   47736       0       0 -----   [ anon ]
+00007b3bfc000000   12644    7144    7144 rw---   [ anon ]
+00007b3bfcc59000   52892       0       0 -----   [ anon ]
+00007b3c00000000   10588    9020    9020 rw---   [ anon ]
+00007b3c00a57000   54948       0       0 -----   [ anon ]
+00007b3c04000000   19860   18600   18600 rw---   [ anon ]
+00007b3c05365000   45676       0       0 -----   [ anon ]
+00007b3c08000000   10592    5948    5948 rw---   [ anon ]
+00007b3c08a58000   54944       0       0 -----   [ anon ]
+00007b3c0ce97000       4       0       0 -----   [ anon ]
+00007b3c0ce98000    2048      84      84 rw---   [ anon ]
+00007b3c0d098000       4       0       0 -----   [ anon ]
+00007b3c0d099000    2048      60      60 rw---   [ anon ]
+00007b3c0d299000       4       0       0 -----   [ anon ]
+00007b3c0d29a000    2048      72      72 rw---   [ anon ]
+00007b3c0d49a000       4       0       0 -----   [ anon ]
+00007b3c0d49b000    2048      80      80 rw---   [ anon ]
+00007b3c0d69b000       4       0       0 -----   [ anon ]
+00007b3c0d69c000    2048      60      60 rw---   [ anon ]
+00007b3c0d89c000       4       0       0 -----   [ anon ]
+00007b3c0d89d000    2048      88      88 rw---   [ anon ]
+00007b3c0da9d000       4       0       0 -----   [ anon ]
+00007b3c0da9e000    2048     116     116 rw---   [ anon ]
+00007b3c0dc9e000       4       0       0 -----   [ anon ]
+00007b3c0dc9f000    2048     116     116 rw---   [ anon ]
+00007b3c10dd7000   10404   10404   10404 rw---   [ anon ]
+00007b3c11800000     160     160       0 r---- libc.so.6
+00007b3c11828000    1620    1036       0 r-x-- libc.so.6
+00007b3c119bd000     352     124       0 r---- libc.so.6
+00007b3c11a15000       4       0       0 ----- libc.so.6
+00007b3c11a16000      16      16      16 r---- libc.so.6
+00007b3c11a1a000       8       8       8 rw--- libc.so.6
+00007b3c11a1c000      52      20      20 rw---   [ anon ]
+00007b3c11a86000       4       0       0 -----   [ anon ]
+00007b3c11a87000       8       0       0 rw---   [ anon ]
+00007b3c11a89000       4       0       0 -----   [ anon ]
+00007b3c11a8a000       8       0       0 rw---   [ anon ]
+00007b3c11a8c000       4       0       0 -----   [ anon ]
+00007b3c11a8d000       8       0       0 rw---   [ anon ]
+00007b3c11a8f000       4       0       0 -----   [ anon ]
+00007b3c11a90000       8       0       0 rw---   [ anon ]
+00007b3c11a92000       8       8       8 rw---   [ anon ]
+00007b3c11a94000      12      12       0 r---- libgcc_s.so.1
+00007b3c11a97000      92      64       0 r-x-- libgcc_s.so.1
+00007b3c11aae000      16      16       0 r---- libgcc_s.so.1
+00007b3c11ab2000       4       4       4 r---- libgcc_s.so.1
+00007b3c11ab3000       4       4       4 rw--- libgcc_s.so.1
+00007b3c11ab4000      56      56       0 r---- libm.so.6
+00007b3c11ac2000     496     300       0 r-x-- libm.so.6
+00007b3c11b3e000     364     132       0 r---- libm.so.6
+00007b3c11b99000       4       4       4 r---- libm.so.6
+00007b3c11b9a000       4       4       4 rw--- libm.so.6
+00007b3c11b9d000       4       0       0 -----   [ anon ]
+00007b3c11b9e000       8       0       0 rw---   [ anon ]
+00007b3c11ba0000       4       0       0 -----   [ anon ]
+00007b3c11ba1000       8       0       0 rw---   [ anon ]
+00007b3c11ba3000       4       0       0 -----   [ anon ]
+00007b3c11ba4000       8       0       0 rw---   [ anon ]
+00007b3c11ba6000       4       0       0 -----   [ anon ]
+00007b3c11ba7000       8       0       0 rw---   [ anon ]
+00007b3c11ba9000       4       0       0 -----   [ anon ]
+00007b3c11baa000       8       0       0 rw---   [ anon ]
+00007b3c11bac000       8       8       8 rw---   [ anon ]
+00007b3c11bae000       8       8       0 r---- ld-linux-x86-64.so.2
+00007b3c11bb0000     168     168       0 r-x-- ld-linux-x86-64.so.2
+00007b3c11bda000      44      40       0 r---- ld-linux-x86-64.so.2
+00007b3c11be6000       8       8       8 r---- ld-linux-x86-64.so.2
+00007b3c11be8000       8       8       8 rw--- ld-linux-x86-64.so.2
+00007ffc98446000     136      32      32 rw---   [ stack ]
+00007ffc98490000      16       0       0 r----   [ anon ]
+00007ffc98494000       8       4       0 r-x--   [ anon ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB          678832  248868  244580
+
+*** Multiplication de deux entiers:
+Command being timed: "cargo run --release"
+        User time (seconds): 10.61
+        System time (seconds): 0.44
+        Percent of CPU this job got: 105%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.43
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 220712
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 621
+        Minor (reclaiming a frame) page faults: 153169
+        Voluntary context switches: 1782
+        Involuntary context switches: 1801
+        Swaps: 0
+        File system inputs: 234720
+        File system outputs: 11864
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+*** factoriel de 4 avec des FheUint8:
+Command being timed: "./target/release/factoriel"
+        User time (seconds): 9.29
+        System time (seconds): 0.06
+        Percent of CPU this job got: 383%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.44
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 135916
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 47975
+        Voluntary context switches: 295
+        Involuntary context switches: 1499
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+*** factoriel de 99 avec des FheUint8:
+Command being timed: "./target/release/factoriel"
+        User time (seconds): 137.87
+        System time (seconds): 0.21
+        Percent of CPU this job got: 429%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.13
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 136068
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 48074
+        Voluntary context switches: 5148
+        Involuntary context switches: 14183
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+

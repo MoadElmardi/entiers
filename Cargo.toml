@@ -9,3 +9,44 @@ num-bigint = "0.4.6"
 num-traits = "0.2.19"
 rayon = "1.10.0"
 rand = "0.9.0"
+procfs = "0.17.0"
+
+# [[bin]]
+# name = "keygen"
+# path = "src/consommation/keygen.rs"
+
+# [[bin]]
+# name = "encrypt"
+# path = "src/consommation/encrypt.rs"
+
+# [[bin]]
+# name = "add"
+# path = "src/consommation/add.rs"
+
+# [[bin]]
+# name = "decrypt"
+# path = "src/consommation/decrypt.rs"
+
+# [[bin]]
+# name = "add2"
+# path = "src/consommation/add2.rs"
+
+[[bin]]
+name = "addition"
+path = "src/consommation/addition.rs"
+
+[[bin]]
+name = "additionshortint"
+path = "src/consommation/additionshortint.rs"
+
+[[bin]]
+name = "multiplication"
+path = "src/consommation/multiplication.rs"
+
+[[bin]]
+name = "multiplicationpmap"
+path = "src/consommation/multiplicationpmap.rs"
+
+[[bin]]
+name = "factoriel"
+path = "src/consommation/factoriel.rs"

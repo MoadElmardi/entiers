@@ -1,14 +1,11 @@
-mod precision_temps {
-    pub mod tri_liste;
+mod consommation {
+    //pub mod addition2;
+    // pub mod addition;
+     pub mod multiplication;
+    // pub mod division;
 }
-
-use std::time::Instant;
-use precision_temps::tri_liste::main as test_main;
+use consommation::multiplication::main as test_main;
 
 fn main() {
-    
-    let start = Instant::now();
     let _ = test_main();
-    let duration = start.elapsed();
-    println!("\nDuration: {:?}", duration);
 }
