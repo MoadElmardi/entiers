@@ -10,8 +10,8 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
     let (client_key, server_keys) = generate_keys(config);
     set_server_key(server_keys);
 
-    let ctxt_a = FheUint16::try_encrypt(402u16, &client_key)?;
-    let ctxt_b = FheUint16::try_encrypt(120u16, &client_key)?;
+    let ctxt_a = FheUint16::try_encrypt(400u16, &client_key)?;
+    let ctxt_b = FheUint16::try_encrypt(1200u16, &client_key)?;
 
     let ctxt_result = &ctxt_a + &ctxt_b;
 

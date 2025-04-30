@@ -50,3 +50,4 @@ path = "src/consommation/multiplicationpmap.rs"
 [[bin]]
 name = "factoriel"
 path = "src/consommation/factoriel.rs"
+

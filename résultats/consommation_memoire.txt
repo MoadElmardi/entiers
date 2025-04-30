@@ -136,6 +136,21 @@ ffffffffff600000       4       0       0 --x--   [ anon ]
 ---------------- ------- ------- ------- 
 total kB          675764  135992  131732
 
+*** Addition de deux entiers FheUint8:
+total kB          675764  135992  131732
+
+*** Addition de deux entiers FheUint16:
+total kB          676056  136936  132876
+
+*** Addition de deux entiers FheUint32:
+total kB          676704  137620  133468
+
+*** Addition de deux entiers FheUint64:
+total kB          677008  138288  134136
+
+*** Addition de deux entiers FheUint128:
+total kB          678580  140908  136756
+
 *** Addition de deux entiers FheUint128:
 13411:   ./target/release/addition
 Address           Kbytes     RSS   Dirty Mode  Mapping
@@ -464,6 +479,21 @@ Command being timed: "./target/release/additionshortint"
         Page size (bytes): 4096
         Exit status: 0
 
+*** Multiplication de deux entiers FheUint8:
+Maximum resident set size (kbytes): 135696
+
+*** Multiplication de deux entiers FheUin16:
+Maximum resident set size (kbytes): 137520
+
+*** Multiplication de deux entiers FheUint32:
+Maximum resident set size (kbytes): 143604
+
+*** Multiplication de deux entiers FheUint64:
+Maximum resident set size (kbytes): 168616
+
+*** Multplication de deux entiers FheUint128:
+Maximum resident set size (kbytes): 269428
+
 
 *** Multiplication de deux entiers FheUint8:
 82468:   ./target/debug/multiplicationpmap
@@ -726,4 +756,25 @@ Command being timed: "./target/release/factoriel"
         Signals delivered: 0
         Page size (bytes): 4096
         Exit status: 0
+
+factoriel de 2 avec FheUin16:
+valgrind (MiB): 127.8
+time -v: Maximum resident set size (kbytes): 137860
+
+factoriel de 3 avec FheUin16:
+valgrind (MiB): 128.4
+Maximum resident set size (kbytes): 138588
+
+factoriel de 6 avec FheUin16:
+valgrind (MiB): 129.0
+Maximum resident set size (kbytes): 139192
+
+factoriel de 11 avec FheUin16:
+valgrind (MiB): 
+Maximum resident set size (kbytes): 139512
+
+factoriel de 21 avec FheUin16:
+valgrind (MiB): 129.1
+time -v: Maximum resident set size (kbytes): 140012
+
 
