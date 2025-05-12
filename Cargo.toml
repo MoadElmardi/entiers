@@ -44,10 +44,30 @@ name = "multiplication"
 path = "src/consommation/multiplication.rs"
 
 [[bin]]
+name = "division"
+path = "src/consommation/division.rs"
+
+[[bin]]
+name = "comparaison"
+path = "src/consommation/comparaison.rs"
+
+[[bin]]
+name = "max"
+path = "src/consommation/max.rs"
+
+[[bin]]
+name = "selectionconditionnelle"
+path = "src/consommation/selectionconditionnelle.rs"
+
+[[bin]]
 name = "multiplicationpmap"
 path = "src/consommation/multiplicationpmap.rs"
 
 [[bin]]
 name = "factoriel"
 path = "src/consommation/factoriel.rs"
+
+[[bin]]
+name = "securite"
+path = "src/consommation/securite.rs"
 

@@ -1,5 +1,5 @@
 use tfhe::prelude::*;
-use tfhe::{generate_keys, set_server_key, ConfigBuilder, FheUint128};
+use tfhe::{generate_keys, set_server_key, ConfigBuilder, FheUint16};
 
 // Add for pmap
 // use std::time::Duration;
@@ -10,12 +10,13 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
     let (client_key, server_keys) = generate_keys(config);
     set_server_key(server_keys);
 
-    let ctxt_a = FheUint128::try_encrypt(400u128, &client_key)?;
-    let ctxt_b = FheUint128::try_encrypt(1200u128, &client_key)?;
+    let ctxt_a = FheUint16::try_encrypt(4000u16, &client_key)?;
+    let ctxt_b = FheUint16::try_encrypt(1200u16, &client_key)?;
 
-    let ctxt_result = &ctxt_a + &ctxt_b;
+    let ctxt_result = &ctxt_a.ge(&ctxt_b);
 
-    let _result: u128 = ctxt_result.decrypt(&client_key);
+    let _result: bool = ctxt_result.decrypt(&client_key);
+    //println!("{result}");
     
     //Add for pmap
     // println!("Addition terminée. Pause pour mesure mémoire...");

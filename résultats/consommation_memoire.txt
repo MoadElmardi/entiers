@@ -770,7 +770,7 @@ valgrind (MiB): 129.0
 Maximum resident set size (kbytes): 139192
 
 factoriel de 11 avec FheUin16:
-valgrind (MiB): 
+valgrind (MiB): 129.1
 Maximum resident set size (kbytes): 139512
 
 factoriel de 21 avec FheUin16:

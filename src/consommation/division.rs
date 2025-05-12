@@ -1,26 +1,25 @@
 use tfhe::prelude::*;
-use tfhe::{generate_keys, set_server_key, ConfigBuilder, FheUint128};
-use std::time::Duration;
-use std::thread::sleep;
+use tfhe::{generate_keys, set_server_key, ConfigBuilder, FheUint64};
+
+// Add for pmap
+// use std::time::Duration;
+// use std::thread::sleep;
 
 pub fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("Début");
     let config = ConfigBuilder::default().build();
     let (client_key, server_keys) = generate_keys(config);
     set_server_key(server_keys);
-    println!("Clés générées.");
 
-    let ctxt_a = FheUint128::try_encrypt(140u128, &client_key)?;
-    let ctxt_b = FheUint128::try_encrypt(14u128, &client_key)?;
-    println!("Chiffrement terminé.");
+    let ctxt_a = FheUint64::try_encrypt(40u64, &client_key)?;
+    let ctxt_b = FheUint64::try_encrypt(120u64, &client_key)?;
 
     let ctxt_result = &ctxt_a / &ctxt_b;
-    println!("Résultat calculé");
 
-    let _result: u128 = ctxt_result.decrypt(&client_key);
-
-    println!("Division terminée. Pause pour mesure mémoire...");
-    sleep(Duration::from_secs(20));
+    let _result: u64 = ctxt_result.decrypt(&client_key);
+    
+    //Add for pmap
+    // println!("Opération terminée. Pause pour mesure mémoire...");
+    // sleep(Duration::from_secs(120));
 
     Ok(())
 }
