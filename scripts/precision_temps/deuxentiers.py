@@ -102,6 +102,8 @@ df_binary_min = df_binary / 1000 / 60  # ms to min
 
 # Création du graphique
 fig, ax = plt.subplots(figsize=(16, 9))
+# échelle logarithmique pour les temps
+ax.set_yscale('log') # A enlever pour une échelle linéaire
 
 operations = df_binary.index.tolist()
 types = df_binary.columns.tolist()
@@ -137,6 +139,7 @@ ax.set_xticklabels(operations, rotation=45, ha="right")
 ax.set_ylabel("Temps moyen (minutes)")
 ax.set_title("Temps d'exécution des opérations binaires homomorphes par type de FheUint (en minutes)")
 ax.legend(*zip(*unique_handles_labels), title="Légende")
-ax.grid(True, which='both', linestyle='--', linewidth=0.5, alpha=0.7)
+ax.set_axisbelow(True)
+plt.grid(linestyle='--', linewidth=0.5, alpha=0.7)
 plt.tight_layout()
 plt.show()

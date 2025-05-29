@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Données
-tailles_vecteurs = [8, 16, 32, 64, 128, 256, 512, 1028, 2048]
 tri_normal_vecteur = [0.489, 0.779, 1.469, 2.638, 5.795, 12.461, 27.672, 75.591, 136.271]  # en µs
+tailles_vecteurs = [8, 16, 32, 64, 128, 256, 512, 1028, 2048]
 tri_chiffre_vecteur = [
     11175.285251,
     37140.943489,

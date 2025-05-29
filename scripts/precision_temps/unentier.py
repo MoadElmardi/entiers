@@ -103,7 +103,8 @@ operations = list(data["FheUint16"].keys())
 types = list(data.keys())
 
 # Conversion des temps moyens en millisecondes pour les barres
-df_ms = df / 1000  # convert µs to ms
+# df_ms = df / 1000  # convert µs to ms
+df_ms = df / 1000000  # convert µs to s
 
 # Position des barres
 x = np.arange(len(operations))
@@ -112,6 +113,9 @@ offsets = np.linspace(-0.35, 0.35, len(types))
 
 # Création du graphe
 fig, ax = plt.subplots(figsize=(14, 8))
+# échelle logarithmique pour les temps
+ax.set_yscale('log') # A enlever pour une échelle linéaire
+
 
 # Couleurs et stockage des coordonnées pour les lignes
 colors = plt.cm.get_cmap('tab10', len(types))
@@ -144,8 +148,11 @@ unique_handles_labels = [(h, l) for h, l in zip(handles, labels) if not (l in se
 # Ajustements
 ax.set_xticks(x)
 ax.set_xticklabels(operations, rotation=45, ha="right")
-ax.set_ylabel("Temps moyen (ms)")
-ax.set_title("Temps d'exécution des opérations unaires par type de FheUint (en ms)")
+ax.set_ylabel("Temps moyen (s)")
+ax.set_title("Temps d'exécution des opérations unaires par type de FheUint (en s)")
 ax.legend(*zip(*unique_handles_labels), title="Légende")
+ax.set_axisbelow(True)
+#ax.grid(True, which='both', linestyle='--', linewidth=0.5, alpha=0.7)
+plt.grid(linestyle='--', linewidth=0.5, alpha=0.7)
 plt.tight_layout()
 plt.show()

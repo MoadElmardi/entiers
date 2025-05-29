@@ -16,6 +16,8 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
     let gen_key_duration = start_gen_key.elapsed();
     set_server_key(server_keys);
 
+
+
     // Chiffrement des entiers
     let a: u64 = 150;
     let b: u64 = 50;

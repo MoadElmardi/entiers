@@ -52,9 +52,13 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
         let ctxt_result: FheUint2048 = &ctxt_a >> 2_u64;
         let op_duration = start_op.elapsed();
 
-        // Opération homomorphe (addition d'une constante)
+        
         let start_op = Instant::now();
-        let ctxt_result2 = &ctxt_a + StaticUnsignedBigInt::<32>::from(25u64);
+        
+        // Opération homomorphe (addition d'une constante)
+        let ctxt_result2 = &ctxt_a + StaticUnsignedBigInt::<4>::from(25u64);
+        
+        
         let op_duration2 = start_op.elapsed();
 
         // Opération homomorphe (multiplication par une constante)
@@ -76,7 +80,6 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
         let op_duration6 = start_op.elapsed(); 
 
         // Opération homomorphe (casting)
-
         let start_op = Instant::now();
         let ctxt_result4: FheUint8 = ctxt_a7.cast_into();
         let op_duration4 = start_op.elapsed();  

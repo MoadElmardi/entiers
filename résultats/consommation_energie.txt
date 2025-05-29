@@ -1,1 +1,146 @@
 
+*** Consommation énergétique idle
+sudo powerstat -zR 1 60 : 3,25 Watts
+sudo perf stat -a -e power/energy-pkg/ sleep 10 : 3,097 Watts
+
+*** (10 répétitions) Consommation énergétique de l'addition de deux 
+sudo perf stat -a -e power/energy-pkg/ ./target/release/addition
+FheUint16: 
+Puissance nette moyenne : 36.1822 W (-+ .2384)
+Energie nette moyenne : 44.8436 J (-+ .3008)
+FheUint8: 
+Puissance nette moyenne : 33.6853 W (-+ .2612)
+Energie nette moyenne : 39.5387 J (-+ .2832)
+FheUint32: 
+Puissance nette moyenne : 39.1882 W (-+ .1908)
+Energie nette moyenne : 56.7409 J (-+ .5788)
+FheUint64: 
+Puissance nette moyenne : 43.9929 W (-+ .2438)
+Energie nette moyenne : 80.6018 J (-+ .9008)
+FheUint128: 
+Puissance nette moyenne : 48.9671 W (-+ .3454)
+Energie nette moyenne : 128.5702 J (-+ .8463)
+
+*** (10 répétitions) Consommation énergétique de la multiplication de deux 
+sudo perf stat -a -e power/energy-pkg/ ./target/release/multiplication
+FheUint16: 
+Puissance nette moyenne : 43.3891 W (-+ .4384)
+Energie nette moyenne : 86.9786 J (-+ .8982)
+FheUint8: 
+Puissance nette moyenne : 36.4623 W (-+ .2651)
+Energie nette moyenne : 48.9345 J (-+ .2663)
+FheUint32: 
+Puissance nette moyenne : 55.4810 W (-+ .2142)
+Energie nette moyenne : 247.8686 J (-+ 1.3866)
+FheUint64: 
+Puissance nette moyenne : 62.6618 W (-+ .4936)
+Energie nette moyenne : 897.0712 J (-+ 17.6369)
+FheUint128: 
+Puissance nette moyenne : 65.3364 W (-+ .3175)
+Energie nette moyenne : 3535.2612 J (-+ 77.9086)
+
+*** (10 répétitions) Consommation énergétique de la division de deux 
+sudo perf stat -a -e power/energy-pkg/ ./target/release/division
+FheUint16: 
+Puissance nette moyenne : 47.4502 W (-+ .4384)
+Energie nette moyenne : 322.1636 J (-+ .8982)
+FheUint8: 
+Puissance nette moyenne : 40.4130 W (-+ .2929)
+Energie nette moyenne : 117.4240 J (-+ .4240)
+FheUint32: 
+Puissance nette moyenne : 54.3859 W (-+ .5995)
+Energie nette moyenne : 1119.8097 J (-+ 12.7962)
+FheUint64: 
+Puissance nette moyenne : 59.1415 W (-+ .7215)
+Energie nette moyenne : 4262.2348 J (-+ 91.2177)
+FheUint128: 
+Puissance nette moyenne : 62.8798 W (-+ .4032)
+Energie nette moyenne : 17120.0102 J (-+ 440.4204)
+
+*** (10 répétitions) Consommation énergétique de la soustraction de deux 
+sudo perf stat -a -e power/energy-pkg/ ./target/release/soustraction
+FheUint64:
+Puissance nette moyenne : 43.6820 W (-+ .5083)
+Energie nette moyenne : 79.8619 J (-+ 1.1431)
+
+*** (10 répétitions) Consommation énergétique de la comparaison de deux 
+sudo perf stat -a -e power/energy-pkg/ ./target/release/comparaison
+- Egalité:
+FheUint16: 
+Puissance nette moyenne : 33.5353 W (-+ .0989)
+Energie nette moyenne : 40.0557 J (-+ .1196)
+- Inégalité:
+FheUint16: 
+Puissance nette moyenne : 33.4007 W (-+ .1469)
+Energie nette moyenne : 39.8170 J (-+ .1351)
+- Supérieur strictement:
+FheUint16: 
+Puissance nette moyenne : 33.7542 W (-+ .1640)
+Energie nette moyenne : 40.1977 J (-+ .1103)
+- Supérieur ou égal:
+FheUint16: 
+Puissance nette moyenne : 33.8287 W (-+ .1187)
+Energie nette moyenne : 40.3490 J (-+ .1039)
+
+*** (10 répétitions) Consommation énergétique de max de deux 
+sudo perf stat -a -e power/energy-pkg/ ./target/release/max
+FheUint16: 
+Puissance nette moyenne : 37.3778 W (-+ .2494)
+Energie nette moyenne : 50.8146 J (-+ .4270)
+
+*** (10 répétitions) Consommation énergétique d'une sélection conditionnelle
+sudo perf stat -a -e power/energy-pkg/ ./target/release/selectionconditionnelle
+FheUint16: 
+Puissance nette moyenne : 36.4022 W (-+ .2105)
+Energie nette moyenne : 45.2151 J (-+ .1975)
+
+*** (10 répétitions) Consommation énergétique du factoriel (FheUint16) de:
+sudo perf stat -a -e power/energy-pkg/ ./target/release/factoriel
+3:
+Puissance nette moyenne : 47.8129 W (-+ .2318)
+Energie nette moyenne : 140.2702 J (-+ .8168)
+6:
+Puissance nette moyenne : 52.1304 W (-+ .4593)
+Energie nette moyenne : 299.8073 J (-+ 5.4312)
+11:
+Puissance nette moyenne : 55.0458 W (-+ .2323)
+Energie nette moyenne : 572.5754 J (-+ 1.9290)
+16:
+Puissance nette moyenne : 56.2393 W (-+ .3575)
+Energie nette moyenne : 850.2993 J (-+ 13.8477)
+21:
+Puissance nette moyenne : 56.7644 W (-+ .3062)
+Energie nette moyenne : 1123.1874 J (-+ 15.1240)
+26:
+Puissance nette moyenne : 57.2189 W (-+ .1044)
+Energie nette moyenne : 1399.2994 J (-+ 16.7275)
+31:
+Puissance nette moyenne : 56.3798 W (-+ .4834)
+Energie nette moyenne : 1635.4130 J (-+ 16.3617)
+36:
+Puissance nette moyenne : 56.7015 W (-+ .7293)
+Energie nette moyenne : 1916.1097 J (-+ 38.7508)
+41:
+Puissance nette moyenne : 57.1941 W (-+ .7514)
+Energie nette moyenne : 2200.6160 J (-+ 44.1133)
+46:
+Puissance nette moyenne : 57.2855 W (-+ .8445)
+Energie nette moyenne : 2478.5829 J (-+ 54.2349)
+51:
+Puissance nette moyenne : 57.4954 W (-+ .8378)
+Energie nette moyenne : 2756.0912 J (-+ 62.0717)
+
+*** (10 répétitions) Consommation énergétique d'addition de deux FheUint16 avec:
+sudo perf stat -a -e power/energy-pkg/ ./target/release/addition
+128 bits de sécurité (avec ConfigBuilder::default()):
+Puissance nette moyenne : 36.1822 W (-+ .2384)
+Energie nette moyenne : 44.8436 J (-+ .3008)
+128 bits de sécurité (avec V1_1_PARAM_MESSAGE_2_CARRY_2_KS_PBS_TUNIFORM_2M128):
+Puissance nette moyenne : 35.9830 W (-+ .1698)
+Energie nette moyenne : 44.6738 J (-+ .1647)
+64 bits de sécurité:
+Puissance nette moyenne : 34.1709 W (-+ .2494)
+Energie nette moyenne : 43.8020 J (-+ .2965)
+40 bits de sécurité:
+Puissance nette moyenne : 34.2363 W (-+ .2238)
+Energie nette moyenne : 42.2848 J (-+ .1348)
