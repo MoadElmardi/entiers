@@ -1,0 +1,1861 @@
+desc: --detailed-freq=1 --alloc-fn=.* --massif-out-file=résultats/massif/additionshortintM3C1.out
+cmd: target/release/additionshortint
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=1
+#-----------
+time=246705400
+mem_heap_B=56766320
+mem_heap_extra_B=6824
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56766320 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208752 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=633894723
+mem_heap_B=56639504
+mem_heap_extra_B=6616
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56639504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 81936 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=1138170907
+mem_heap_B=56639152
+mem_heap_extra_B=6600
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56639152 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 81584 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=1482836795
+mem_heap_B=56765968
+mem_heap_extra_B=6808
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208400 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=1986723972
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=2576996531
+mem_heap_B=56766320
+mem_heap_extra_B=6824
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56766320 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208752 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=3035966068
+mem_heap_B=56765968
+mem_heap_extra_B=6808
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208400 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=3395039462
+mem_heap_B=56639152
+mem_heap_extra_B=6600
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56639152 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 81584 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=3929160552
+mem_heap_B=56763408
+mem_heap_extra_B=6784
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56763408 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 205840 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=4387599865
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=4884772166
+mem_heap_B=56638800
+mem_heap_extra_B=6584
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56638800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 81232 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=5289399552
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=5771310590
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=6184353595
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=6528526548
+mem_heap_B=56733008
+mem_heap_extra_B=6656
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56733008 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 175440 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=7010454889
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=7492507741
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=7836775001
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=8181047033
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=8597255869
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=9009896172
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=9422669109
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=9835326743
+mem_heap_B=56764912
+mem_heap_extra_B=6760
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764912 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207344 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=10248080633
+mem_heap_B=56765968
+mem_heap_extra_B=6808
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208400 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=10557645679
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=11176637504
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=11589296860
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=12002145214
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=12414890389
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=12930882952
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=13550010849
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=13894213332
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=14169765644
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=14583068561
+mem_heap_B=56764912
+mem_heap_extra_B=6760
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764912 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207344 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=14858646982
+mem_heap_B=56765968
+mem_heap_extra_B=6808
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208400 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=15272006465
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=15547640878
+mem_heap_B=56765616
+mem_heap_extra_B=6792
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 208048 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=16098732396
+mem_heap_B=56733360
+mem_heap_extra_B=6672
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56733360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 175792 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=16514791807
+mem_heap_B=56764912
+mem_heap_extra_B=6760
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764912 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207344 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=16928146135
+mem_heap_B=56764912
+mem_heap_extra_B=6760
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764912 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207344 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=17479207151
+mem_heap_B=56765264
+mem_heap_extra_B=6776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56765264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207696 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=17754846293
+mem_heap_B=56764912
+mem_heap_extra_B=6760
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764912 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 207344 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=18305982733
+mem_heap_B=56764560
+mem_heap_extra_B=6744
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764560 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 206992 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=18857067357
+mem_heap_B=56764560
+mem_heap_extra_B=6744
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764560 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 206992 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=19132693689
+mem_heap_B=56764560
+mem_heap_extra_B=6744
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764560 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 206992 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=19546105926
+mem_heap_B=56764208
+mem_heap_extra_B=6728
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56764208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 206640 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=19833005955
+mem_heap_B=113196340
+mem_heap_extra_B=7116
+mem_stacks_B=0
+heap_tree=detailed
+n3: 113196340 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 56579840 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n0: 22272 in 6 places, all below massif's threshold (1.00%)
+ n1: 56557568 0x1404F5: tfhe::core_crypto::entities::ggsw_ciphertext_list::GgswCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 56557568 0x1236CD: tfhe::core_crypto::algorithms::lwe_bootstrap_key_generation::par_allocate_and_generate_new_lwe_bootstrap_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11B96D: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 58932 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=20253651293
+mem_heap_B=66757292
+mem_heap_extra_B=7140
+mem_stacks_B=0
+heap_tree=detailed
+n3: 66757292 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 56688640 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 24576 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 73900 in 54 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=20460267749
+mem_heap_B=137527652
+mem_heap_extra_B=11228
+mem_stacks_B=0
+heap_tree=peak
+n4: 137527652 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 63076 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=20667158723
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=20874019494
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=21080878875
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=21287750164
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=21494611645
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=21701473120
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=21908353516
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=22115220611
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=22322070849
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=22528940071
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=22735816276
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=22942684048
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=23149555340
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=23356418217
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=23563292301
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=23770144699
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=23977021611
+mem_heap_B=137527476
+mem_heap_extra_B=11220
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137527476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 62900 in 57 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=24196849664
+mem_heap_B=137861659
+mem_heap_extra_B=11269
+mem_stacks_B=0
+heap_tree=detailed
+n4: 137861659 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70778880 0x15AA79: tfhe::core_crypto::entities::lwe_keyswitch_key::LweKeyswitchKey<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 70778880 0x13F05A: tfhe::core_crypto::algorithms::lwe_keyswitch_key_generation::allocate_and_generate_new_lwe_keyswitch_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 70778880 0x11B5E1: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 70778880 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 70778880 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 70778880 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 70778880 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 70778880 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 70778880 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 70778880 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n2: 56690944 0x2952AD: __rdl_alloc (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n2: 56664064 0x2710E2: aligned_vec::raw::with_capacity_unchecked (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 56557568 0x11BA19: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_classic_bootstrapping_key (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 56557568 0x11B251: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 56557568 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 56557568 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 56557568 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 56557568 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 56557568 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n1: 56557568 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+           n0: 56557568 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n0: 106496 in 6 places, all below massif's threshold (1.00%)
+  n0: 26880 in 6 places, all below massif's threshold (1.00%)
+ n1: 9994752 0x15A715: tfhe::core_crypto::entities::lwe_ciphertext_list::LweCiphertextList<alloc::vec::Vec<Scalar>>::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+  n1: 9994752 0x129447: tfhe::shortint::server_key::modulus_switch_noise_reduction::ModulusSwitchNoiseReductionKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+   n1: 9994752 0x11B2A3: tfhe::shortint::engine::server_side::<impl tfhe::shortint::engine::ShortintEngine>::new_server_key_with_max_degree (in /home/moad/numeros/entiers/target/release/additionshortint)
+    n1: 9994752 0x142DEB: std::thread::local::LocalKey<T>::with (in /home/moad/numeros/entiers/target/release/additionshortint)
+     n1: 9994752 0x140ED2: tfhe::shortint::server_key::ServerKey::new (in /home/moad/numeros/entiers/target/release/additionshortint)
+      n1: 9994752 0x11A0D7: additionshortint::main (in /home/moad/numeros/entiers/target/release/additionshortint)
+       n1: 9994752 0x119BF2: std::sys::backtrace::__rust_begin_short_backtrace (in /home/moad/numeros/entiers/target/release/additionshortint)
+        n1: 9994752 0x119B98: std::rt::lang_start::{{closure}} (in /home/moad/numeros/entiers/target/release/additionshortint)
+         n1: 9994752 0x28CD7F: std::rt::lang_start_internal (in /home/moad/numeros/entiers/target/release/additionshortint)
+          n0: 9994752 0x11A4E4: main (in /home/moad/numeros/entiers/target/release/additionshortint)
+ n0: 397083 in 63 places, all below massif's threshold (1.00%)

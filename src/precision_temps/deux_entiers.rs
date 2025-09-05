@@ -1,11 +1,27 @@
 use tfhe::prelude::*;
-use tfhe::{generate_keys, set_server_key, ConfigBuilder, FheUint512};
+use tfhe::{generate_keys, set_server_key, ConfigBuilder, FheUint8};
 use std::time::{Duration, Instant};
+use std::io::{Write, BufWriter};
 
-const N: usize = 100;
+const N: usize = 10;
 
 fn mean(durations: &[Duration]) -> Duration {
     durations.iter().sum::<Duration>() / (durations.len() as u32)
+}
+
+fn write_durations_to_file(durations: &[Duration], operation_name: &str) -> std::io::Result<()> {
+    let file = std::fs::OpenOptions::new().create(true).append(true).open("résultats/resultats_temps_mesures_2.txt")?;
+    
+    let mut writer = BufWriter::new(file);
+
+    writeln!(writer, "\nMesures individuelles pour {}:", operation_name)?;
+    for (i, duration) in durations.iter().enumerate() {
+        writeln!(writer, "Mesure {}: {:?}", i + 1, duration)?;
+    }
+
+    let moyenne = mean(&durations);
+    writeln!(writer, "Moyenne: {:?}", moyenne)?;
+    Ok(())
 }
 
 pub fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -19,13 +35,13 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 
     // Chiffrement des entiers
-    let a: u64 = 150;
-    let b: u64 = 50;
+    let a: u64 = 10;
+    let b: u64 = 5;
 
     //let start_encrypt = Instant::now();
-    let ctxt_a = FheUint512::try_encrypt(a, &client_key)?;
+    let ctxt_a = FheUint8::try_encrypt(a, &client_key)?;
     //let encrypt_duration = start_encrypt.elapsed();
-    let ctxt_b = FheUint512::try_encrypt(b, &client_key)?;
+    let ctxt_b = FheUint8::try_encrypt(b, &client_key)?;
 
     //let mut encrypt_times = Vec::with_capacity(N);
     let mut op_times = Vec::with_capacity(N);
@@ -179,14 +195,17 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
         "Addition homomorphe : moyenne = {:?}",
         op_mean
     );
+    let _ = write_durations_to_file(&op_times, "Addition");
     println!(
         "Soustraction homomorphe : moyenne = {:?}",
         op2_mean 
     );
+    let _ = write_durations_to_file(&op2_times, "Soustraction");
     println!(
         "Multiplication homomorphe : moyenne = {:?}",
         op3_mean 
     );
+    let _ = write_durations_to_file(&op3_times, "Multiplication");
     // println!(
     //     "Division homomorphe : moyenne = {:?}",
     //     op4_mean 
@@ -195,30 +214,37 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
         "ET binaire : moyenne = {:?}",
         op5_mean 
     );
+    let _ = write_durations_to_file(&op5_times, "ET binaire");
     println!(
         "OU binaire : moyenne = {:?}",
         op6_mean 
     );
+    let _ = write_durations_to_file(&op6_times, "OU binaire");
     println!(
         "XOR binaire : moyenne = {:?}",
         op7_mean 
     );
+    let _ = write_durations_to_file(&op7_times, "XOR binaire");
     println!(
         "Egalité : moyenne = {:?}",
         op8_mean 
     );
+    let _ = write_durations_to_file(&op8_times, "Egalité");
     println!(
         "Inégalité : moyenne = {:?}",
         op9_mean 
     );
+    let _ = write_durations_to_file(&op9_times, "Inégalité");
     println!(
         "Supérieur strictement : moyenne = {:?}",
         op10_mean 
     );
+    let _ = write_durations_to_file(&op10_times, "Supérieur strictement");
     println!(
         "Supérieur ou égal : moyenne = {:?}",
         op11_mean 
     );
+    let _ = write_durations_to_file(&op11_times, "Supérieur ou égal");
 
     Ok(())
 }

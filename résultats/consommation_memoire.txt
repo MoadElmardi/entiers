@@ -479,6 +479,48 @@ Command being timed: "./target/release/additionshortint"
         Page size (bytes): 4096
         Exit status: 0
 
+*** Addition de deux entiers en utilisant shortint::PARAM_MESSAGE_1_CARRY_1_KS_PBS_32_BITS:
+Maximum resident set size (kbytes): 131712
+valgrind: 123.8
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_1_CARRY_2_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 131840
+valgrind: 124.6
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_1_CARRY_3_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 161104
+valgrind: 151.9
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_2_CARRY_0_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 171648
+valgrind: 163.6
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_2_CARRY_1_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 131712
+valgrind: 124.4
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_2_CARRY_3_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 483200
+valgrind: 465.6
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_3_CARRY_0_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 132096
+valgrind: 124.4
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_3_CARRY_1_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 140164
+valgrind: 131.5
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_3_CARRY_2_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 404680
+valgrind: 388.8
+
+*** Addition de deux entiers en utilisant shortint::V1_0_PARAM_MESSAGE_3_CARRY_3_COMPACT_PK_KS_PBS_GAUSSIAN_2M128:
+Maximum resident set size (kbytes): 1040768
+valgrind: 1007.7
+
+
+
 *** Multiplication de deux entiers FheUint8:
 Maximum resident set size (kbytes): 135696
 
@@ -706,6 +748,12 @@ Command being timed: "cargo run --release"
         Signals delivered: 0
         Page size (bytes): 4096
         Exit status: 0
+
+*** Division de deux entiers FheUint64:
+Maximum resident set size (kbytes): 146332
+
+*** Soustraction de deux entiers FheUint64:
+Maximum resident set size (kbytes): 139232
 
 *** factoriel de 4 avec des FheUint8:
 Command being timed: "./target/release/factoriel"

@@ -93,34 +93,37 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
     set_server_key(server_keys);
 
     for i in 0..5 {
-        println!("Itération {:?}", i+1);
-        let plaintexts = generate_sample_vector(256);
+
+        println!("Itération {:?}", i + 1);
+        
+        let mut plaintexts = generate_sample_vector(1024);
+
         println!("Liste: {:?}", plaintexts);
         let mut list: Vec<FheUint16> = plaintexts
             .iter()
             .map(|&x| FheUint16::try_encrypt(x, &client_key).unwrap())
             .collect();
 
-        // let start_sort = Instant::now();
-        // bitonic_sort_plain(&mut plaintexts, true);
-        // let duration_sort_plain = start_sort.elapsed();
+        let start_sort = Instant::now();
+        bitonic_sort_plain(&mut plaintexts, true);
+        let duration_sort_plain = start_sort.elapsed();
 
         let start_sort = Instant::now();
         bitonic_sort(&mut list, true);
         let duration_sort = start_sort.elapsed();
 
-        let _dechiffre: Vec<u16> = list
+
+        let dechiffre: Vec<u16> = list
             .iter()
             .map(|x| x.decrypt(&client_key))
             .collect();
 
-        // println!("Tri: {:?}", dechiffre);
-        // println!("Duration de tri: {:?}", duration_sort_plain);
+        println!("Tri: {:?}", dechiffre);
+        println!("Duration de tri: {:?}", duration_sort_plain);
         println!("Duration de tri chiffré: {:?}", duration_sort);
+
     }
-
     
-
     Ok(())
 }
 

@@ -5,11 +5,12 @@ REPETITIONS=10
 #BINAIRE="./target/release/addition"
 #BINAIRE="./target/release/multiplication"
 #BINAIRE="./target/release/division"
+BINAIRE="./target/release/soustraction"
 #BINAIRE="./target/release/factoriel"
 #BINAIRE="./target/release/comparaison"
 #BINAIRE="./target/release/max"
 #BINAIRE="./target/release/selectionconditionnelle"
-BINAIRE="./target/release/securite"
+#BINAIRE="./target/release/securite"
 P_IDLE=3.097  # Puissance mesurée à l'état idle en Watts (J/s)
 
 # === DONNÉES ===

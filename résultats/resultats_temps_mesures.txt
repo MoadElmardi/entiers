@@ -1,0 +1,943 @@
+*** Avec FheUint16:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 893.527µs
+Mesure 2: 927.595µs
+Mesure 3: 943.309µs
+Mesure 4: 936.802µs
+Mesure 5: 925.97µs
+Mesure 6: 926.207µs
+Mesure 7: 934.416µs
+Mesure 8: 924.586µs
+Mesure 9: 923.894µs
+Mesure 10: 929.541µs
+Moyenne: 926.584µs
+
+Mesures individuelles pour Shift:
+Mesure 1: 50.736µs
+Mesure 2: 7.125µs
+Mesure 3: 8.8µs
+Mesure 4: 8.477µs
+Mesure 5: 8.101µs
+Mesure 6: 12.025µs
+Mesure 7: 9.002µs
+Mesure 8: 7.873µs
+Mesure 9: 7.824µs
+Mesure 10: 8.495µs
+Moyenne: 12.845µs
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 209.273946ms
+Mesure 2: 202.87698ms
+Mesure 3: 191.938122ms
+Mesure 4: 186.108268ms
+Mesure 5: 192.0219ms
+Mesure 6: 186.436941ms
+Mesure 7: 185.517495ms
+Mesure 8: 176.435361ms
+Mesure 9: 185.685591ms
+Mesure 10: 196.134019ms
+Moyenne: 191.242862ms
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 55.80051ms
+Mesure 2: 55.707519ms
+Mesure 3: 55.760538ms
+Mesure 4: 55.979508ms
+Mesure 5: 55.736625ms
+Mesure 6: 60.655352ms
+Mesure 7: 54.85583ms
+Mesure 8: 56.080643ms
+Mesure 9: 55.278872ms
+Mesure 10: 55.867129ms
+Moyenne: 56.172252ms
+
+Mesures individuelles pour Casting:
+Mesure 1: 8.613µs
+Mesure 2: 12.866µs
+Mesure 3: 11.834µs
+Mesure 4: 12.36µs
+Mesure 5: 13.265µs
+Mesure 6: 11.23µs
+Mesure 7: 11.517µs
+Mesure 8: 18.086µs
+Mesure 9: 12.15µs
+Mesure 10: 11.897µs
+Moyenne: 12.381µs
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 22.322µs
+Mesure 2: 14.856µs
+Mesure 3: 15.52µs
+Mesure 4: 22.875µs
+Mesure 5: 25.008µs
+Mesure 6: 16.628µs
+Mesure 7: 17.246µs
+Mesure 8: 21.296µs
+Mesure 9: 17.168µs
+Mesure 10: 17.266µs
+Moyenne: 19.018µs
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 4.783µs
+Mesure 2: 4.234µs
+Mesure 3: 5.537µs
+Mesure 4: 5.711µs
+Mesure 5: 5.419µs
+Mesure 6: 4.911µs
+Mesure 7: 5.247µs
+Mesure 8: 5.081µs
+Mesure 9: 5.041µs
+Mesure 10: 5.027µs
+Moyenne: 5.099µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 13.497µs
+Mesure 2: 18.864µs
+Mesure 3: 18.041µs
+Mesure 4: 19.873µs
+Mesure 5: 23.459µs
+Mesure 6: 17.174µs
+Mesure 7: 18.375µs
+Mesure 8: 18.69µs
+Mesure 9: 18.672µs
+Mesure 10: 17.847µs
+Moyenne: 18.449µs
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 17.193µs
+Mesure 2: 17.09µs
+Mesure 3: 20.485µs
+Mesure 4: 16.432µs
+Mesure 5: 29.784µs
+Mesure 6: 16.385µs
+Mesure 7: 17.691µs
+Mesure 8: 18.952µs
+Mesure 9: 21.676µs
+Mesure 10: 23.412µs
+Moyenne: 19.91µs
+
+*** Avec FheUint32:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 1.763683ms
+Mesure 2: 1.742378ms
+Mesure 3: 1.744172ms
+Mesure 4: 1.743944ms
+Mesure 5: 1.745132ms
+Mesure 6: 1.740941ms
+Mesure 7: 1.778492ms
+Mesure 8: 1.789521ms
+Mesure 9: 1.806214ms
+Mesure 10: 1.743519ms
+Moyenne: 1.759799ms
+
+Mesures individuelles pour Shift:
+Mesure 1: 94.901µs
+Mesure 2: 13.695µs
+Mesure 3: 14.122µs
+Mesure 4: 14.261µs
+Mesure 5: 14.253µs
+Mesure 6: 13.8µs
+Mesure 7: 13.638µs
+Mesure 8: 13.874µs
+Mesure 9: 13.754µs
+Mesure 10: 13.855µs
+Moyenne: 22.015µs
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 357.488883ms
+Mesure 2: 343.55531ms
+Mesure 3: 331.948877ms
+Mesure 4: 335.642683ms
+Mesure 5: 341.578989ms
+Mesure 6: 342.395817ms
+Mesure 7: 341.245363ms
+Mesure 8: 341.710426ms
+Mesure 9: 343.105877ms
+Mesure 10: 336.776882ms
+Moyenne: 341.54491ms
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 128.358171ms
+Mesure 2: 114.584825ms
+Mesure 3: 111.826439ms
+Mesure 4: 115.322476ms
+Mesure 5: 111.076447ms
+Mesure 6: 112.240344ms
+Mesure 7: 109.607323ms
+Mesure 8: 115.024015ms
+Mesure 9: 111.475757ms
+Mesure 10: 110.625001ms
+Moyenne: 114.014079ms
+
+Mesures individuelles pour Casting:
+Mesure 1: 18.988µs
+Mesure 2: 19.489µs
+Mesure 3: 19.105µs
+Mesure 4: 18.843µs
+Mesure 5: 18.691µs
+Mesure 6: 18.587µs
+Mesure 7: 18.96µs
+Mesure 8: 18.742µs
+Mesure 9: 18.823µs
+Mesure 10: 18.709µs
+Moyenne: 18.893µs
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 27.04µs
+Mesure 2: 27.514µs
+Mesure 3: 28.199µs
+Mesure 4: 27.011µs
+Mesure 5: 27.741µs
+Mesure 6: 30.113µs
+Mesure 7: 29.45µs
+Mesure 8: 27.676µs
+Mesure 9: 28.227µs
+Mesure 10: 33.054µs
+Moyenne: 28.602µs
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 4.911µs
+Mesure 2: 5.279µs
+Mesure 3: 5.025µs
+Mesure 4: 5.78µs
+Mesure 5: 5.02µs
+Mesure 6: 4.623µs
+Mesure 7: 4.675µs
+Mesure 8: 4.681µs
+Mesure 9: 4.823µs
+Mesure 10: 4.702µs
+Moyenne: 4.951µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 25.476µs
+Mesure 2: 26.029µs
+Mesure 3: 25.819µs
+Mesure 4: 25.456µs
+Mesure 5: 25.744µs
+Mesure 6: 25.408µs
+Mesure 7: 25.682µs
+Mesure 8: 25.241µs
+Mesure 9: 26.21µs
+Mesure 10: 25.71µs
+Moyenne: 25.677µs
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 32.384µs
+Mesure 2: 32.838µs
+Mesure 3: 31.422µs
+Mesure 4: 31.077µs
+Mesure 5: 42.732µs
+Mesure 6: 30.687µs
+Mesure 7: 32.518µs
+Mesure 8: 32.885µs
+Mesure 9: 31.573µs
+Mesure 10: 32.638µs
+Moyenne: 33.075µs
+
+*** Avec FheUint64:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 3.81056ms
+Mesure 2: 3.375171ms
+Mesure 3: 3.449589ms
+Mesure 4: 3.371734ms
+Mesure 5: 3.370368ms
+Mesure 6: 3.374988ms
+Mesure 7: 3.388773ms
+Mesure 8: 3.435423ms
+Mesure 9: 3.411278ms
+Mesure 10: 3.423177ms
+Moyenne: 3.441106ms
+
+Mesures individuelles pour Shift:
+Mesure 1: 217.061µs
+Mesure 2: 31.532µs
+Mesure 3: 32.723µs
+Mesure 4: 32.327µs
+Mesure 5: 32.031µs
+Mesure 6: 27.492µs
+Mesure 7: 27.93µs
+Mesure 8: 27.695µs
+Mesure 9: 31.561µs
+Mesure 10: 27.626µs
+Moyenne: 48.797µs
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 761.174208ms
+Mesure 2: 728.273791ms
+Mesure 3: 715.600347ms
+Mesure 4: 709.709431ms
+Mesure 5: 721.935271ms
+Mesure 6: 716.843405ms
+Mesure 7: 721.983655ms
+Mesure 8: 705.089798ms
+Mesure 9: 720.184089ms
+Mesure 10: 711.701925ms
+Moyenne: 721.249592ms
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 229.353043ms
+Mesure 2: 228.734862ms
+Mesure 3: 227.826257ms
+Mesure 4: 226.717655ms
+Mesure 5: 230.063714ms
+Mesure 6: 223.145238ms
+Mesure 7: 234.327199ms
+Mesure 8: 226.2808ms
+Mesure 9: 234.333224ms
+Mesure 10: 227.891867ms
+Moyenne: 228.867385ms
+
+Mesures individuelles pour Casting:
+Mesure 1: 54.622µs
+Mesure 2: 52.96µs
+Mesure 3: 54.176µs
+Mesure 4: 53.529µs
+Mesure 5: 34.294µs
+Mesure 6: 35.474µs
+Mesure 7: 33.998µs
+Mesure 8: 52.922µs
+Mesure 9: 34.2µs
+Mesure 10: 52.978µs
+Moyenne: 45.915µs
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 83.188µs
+Mesure 2: 66.634µs
+Mesure 3: 66.624µs
+Mesure 4: 66.14µs
+Mesure 5: 55.295µs
+Mesure 6: 54.369µs
+Mesure 7: 53.686µs
+Mesure 8: 66.009µs
+Mesure 9: 54.774µs
+Mesure 10: 65.867µs
+Moyenne: 63.258µs
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 6.822µs
+Mesure 2: 5.153µs
+Mesure 3: 5.053µs
+Mesure 4: 4.983µs
+Mesure 5: 4.68µs
+Mesure 6: 5.07µs
+Mesure 7: 4.778µs
+Mesure 8: 4.997µs
+Mesure 9: 4.6µs
+Mesure 10: 5.231µs
+Moyenne: 5.136µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 74.882µs
+Mesure 2: 78.294µs
+Mesure 3: 78.454µs
+Mesure 4: 78.019µs
+Mesure 5: 51.814µs
+Mesure 6: 53.191µs
+Mesure 7: 51.04µs
+Mesure 8: 77.932µs
+Mesure 9: 51.614µs
+Mesure 10: 75.793µs
+Moyenne: 67.103µs
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 62.734µs
+Mesure 2: 62.401µs
+Mesure 3: 61.827µs
+Mesure 4: 61.418µs
+Mesure 5: 61.613µs
+Mesure 6: 62.657µs
+Mesure 7: 74.103µs
+Mesure 8: 62.445µs
+Mesure 9: 76.851µs
+Mesure 10: 62.09µs
+Moyenne: 64.813µs
+
+*** Avec FheUint128:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 7.033443ms
+Mesure 2: 6.669017ms
+Mesure 3: 6.65865ms
+Mesure 4: 6.664812ms
+Mesure 5: 6.659562ms
+Mesure 6: 6.664068ms
+Mesure 7: 6.658037ms
+Mesure 8: 6.773698ms
+Mesure 9: 6.745942ms
+Mesure 10: 6.658516ms
+Moyenne: 6.718574ms
+
+Mesures individuelles pour Shift:
+Mesure 1: 386.215µs
+Mesure 2: 65.821µs
+Mesure 3: 69.652µs
+Mesure 4: 57.671µs
+Mesure 5: 67.501µs
+Mesure 6: 58.679µs
+Mesure 7: 57.138µs
+Mesure 8: 80.135µs
+Mesure 9: 68.675µs
+Mesure 10: 56.678µs
+Moyenne: 96.816µs
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 1.5026857s
+Mesure 2: 1.482965053s
+Mesure 3: 1.439861779s
+Mesure 4: 1.447927738s
+Mesure 5: 1.444799749s
+Mesure 6: 1.43219083s
+Mesure 7: 1.606439658s
+Mesure 8: 1.499831176s
+Mesure 9: 1.491148618s
+Mesure 10: 1.458260946s
+Moyenne: 1.480611124s
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 479.249704ms
+Mesure 2: 448.081133ms
+Mesure 3: 452.420144ms
+Mesure 4: 462.262636ms
+Mesure 5: 450.695239ms
+Mesure 6: 455.944971ms
+Mesure 7: 537.626895ms
+Mesure 8: 471.534188ms
+Mesure 9: 463.699062ms
+Mesure 10: 469.064249ms
+Moyenne: 469.057822ms
+
+Mesures individuelles pour Casting:
+Mesure 1: 106.143µs
+Mesure 2: 105.278µs
+Mesure 3: 104.874µs
+Mesure 4: 106.765µs
+Mesure 5: 108.158µs
+Mesure 6: 96.357µs
+Mesure 7: 110.031µs
+Mesure 8: 102.051µs
+Mesure 9: 79.15µs
+Mesure 10: 97.849µs
+Moyenne: 101.665µs
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 292.562µs
+Mesure 2: 300.865µs
+Mesure 3: 298.871µs
+Mesure 4: 307.565µs
+Mesure 5: 297.35µs
+Mesure 6: 268.393µs
+Mesure 7: 277.433µs
+Mesure 8: 279.047µs
+Mesure 9: 232.571µs
+Mesure 10: 262.854µs
+Moyenne: 281.751µs
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 6.138µs
+Mesure 2: 7.276µs
+Mesure 3: 7.066µs
+Mesure 4: 6.78µs
+Mesure 5: 6.42µs
+Mesure 6: 5.385µs
+Mesure 7: 8.023µs
+Mesure 8: 7.273µs
+Mesure 9: 4.995µs
+Mesure 10: 5.362µs
+Moyenne: 6.471µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 175.975µs
+Mesure 2: 164.576µs
+Mesure 3: 153.905µs
+Mesure 4: 155.24µs
+Mesure 5: 155.245µs
+Mesure 6: 144.667µs
+Mesure 7: 173.961µs
+Mesure 8: 157.993µs
+Mesure 9: 139.659µs
+Mesure 10: 153.484µs
+Moyenne: 157.47µs
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 131.484µs
+Mesure 2: 130.947µs
+Mesure 3: 135.999µs
+Mesure 4: 127.067µs
+Mesure 5: 121.789µs
+Mesure 6: 122.757µs
+Mesure 7: 138.685µs
+Mesure 8: 125.521µs
+Mesure 9: 123.89µs
+Mesure 10: 136.757µs
+Moyenne: 129.489µs
+
+*** Avec FheUint256:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 14.0938ms
+Mesure 2: 13.940573ms
+Mesure 3: 13.909084ms
+Mesure 4: 14.033478ms
+Mesure 5: 14.088807ms
+Mesure 6: 14.115689ms
+Mesure 7: 13.916594ms
+Mesure 8: 13.929163ms
+Mesure 9: 13.83057ms
+Mesure 10: 13.80477ms
+Moyenne: 13.966252ms
+
+Mesures individuelles pour Shift:
+Mesure 1: 820.395µs
+Mesure 2: 759.201µs
+Mesure 3: 790.112µs
+Mesure 4: 791.323µs
+Mesure 5: 787.853µs
+Mesure 6: 760.774µs
+Mesure 7: 758.413µs
+Mesure 8: 764.318µs
+Mesure 9: 751.838µs
+Mesure 10: 756.294µs
+Moyenne: 774.052µs
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 4.224368355s
+Mesure 2: 4.22639487s
+Mesure 3: 4.211856364s
+Mesure 4: 4.267877609s
+Mesure 5: 4.216392081s
+Mesure 6: 4.230188194s
+Mesure 7: 4.21732669s
+Mesure 8: 4.208758528s
+Mesure 9: 4.250893725s
+Mesure 10: 4.37924077s
+Moyenne: 4.243329718s
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 5.13272093s
+Mesure 2: 5.350594107s
+Mesure 3: 5.170493446s
+Mesure 4: 5.152519931s
+Mesure 5: 5.155197894s
+Mesure 6: 5.144449864s
+Mesure 7: 5.277291334s
+Mesure 8: 5.141277762s
+Mesure 9: 5.136870457s
+Mesure 10: 5.149399139s
+Moyenne: 5.181081486s
+
+Mesures individuelles pour Casting:
+Mesure 1: 206.621µs
+Mesure 2: 187.654µs
+Mesure 3: 203.304µs
+Mesure 4: 200.95µs
+Mesure 5: 189.59µs
+Mesure 6: 201.544µs
+Mesure 7: 202.906µs
+Mesure 8: 176.99µs
+Mesure 9: 178.654µs
+Mesure 10: 211.191µs
+Moyenne: 195.94µs
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 897.203µs
+Mesure 2: 894.593µs
+Mesure 3: 935.526µs
+Mesure 4: 958.392µs
+Mesure 5: 885.888µs
+Mesure 6: 938.402µs
+Mesure 7: 937.533µs
+Mesure 8: 846.499µs
+Mesure 9: 909.017µs
+Mesure 10: 949.568µs
+Moyenne: 915.262µs
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 5.15µs
+Mesure 2: 7.829µs
+Mesure 3: 7.33µs
+Mesure 4: 7.594µs
+Mesure 5: 5.429µs
+Mesure 6: 7.041µs
+Mesure 7: 5.464µs
+Mesure 8: 5.278µs
+Mesure 9: 5.337µs
+Mesure 10: 6.914µs
+Moyenne: 6.336µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 334.148µs
+Mesure 2: 309.276µs
+Mesure 3: 356.752µs
+Mesure 4: 338.086µs
+Mesure 5: 296.392µs
+Mesure 6: 333.941µs
+Mesure 7: 281.185µs
+Mesure 8: 267.344µs
+Mesure 9: 267.176µs
+Mesure 10: 340.897µs
+Moyenne: 312.519µs
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 73.389µs
+Mesure 2: 60.386µs
+Mesure 3: 70.622µs
+Mesure 4: 74.373µs
+Mesure 5: 73.08µs
+Mesure 6: 68.997µs
+Mesure 7: 62.037µs
+Mesure 8: 81.549µs
+Mesure 9: 76.779µs
+Mesure 10: 119.894µs
+Moyenne: 76.11µs
+
+*** Avec FheUint512:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 28.270745ms
+Mesure 2: 31.275146ms
+Mesure 3: 28.102809ms
+Mesure 4: 28.217278ms
+Mesure 5: 27.983678ms
+Mesure 6: 28.382968ms
+Mesure 7: 28.118729ms
+Mesure 8: 28.02095ms
+Mesure 9: 28.249531ms
+Mesure 10: 29.064198ms
+Moyenne: 28.568603ms
+
+Mesures individuelles pour Shift:
+Mesure 1: 2.022911ms
+Mesure 2: 1.80384ms
+Mesure 3: 1.682768ms
+Mesure 4: 1.651692ms
+Mesure 5: 1.65261ms
+Mesure 6: 1.72499ms
+Mesure 7: 1.806685ms
+Mesure 8: 1.691813ms
+Mesure 9: 1.683355ms
+Mesure 10: 1.687422ms
+Moyenne: 1.740808ms
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 8.554178341s
+Mesure 2: 8.297497612s
+Mesure 3: 8.294779839s
+Mesure 4: 8.309088963s
+Mesure 5: 8.33346841s
+Mesure 6: 8.332539019s
+Mesure 7: 8.316388095s
+Mesure 8: 8.283415615s
+Mesure 9: 8.300972239s
+Mesure 10: 8.296871052s
+Moyenne: 8.331919918s
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 10.156518269s
+Mesure 2: 10.204539787s
+Mesure 3: 10.145518887s
+Mesure 4: 10.38656733s
+Mesure 5: 10.086034585s
+Mesure 6: 10.083664175s
+Mesure 7: 10.103148785s
+Mesure 8: 10.237619059s
+Mesure 9: 10.233830005s
+Mesure 10: 10.255074704s
+Moyenne: 10.189251558s
+
+Mesures individuelles pour Casting:
+Mesure 1: 547.015µs
+Mesure 2: 534.681µs
+Mesure 3: 558.041µs
+Mesure 4: 489.104µs
+Mesure 5: 522.777µs
+Mesure 6: 476.583µs
+Mesure 7: 486.056µs
+Mesure 8: 564.538µs
+Mesure 9: 527.383µs
+Mesure 10: 496.939µs
+Moyenne: 520.311µs
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 2.461158ms
+Mesure 2: 1.923729ms
+Mesure 3: 1.966773ms
+Mesure 4: 1.982638ms
+Mesure 5: 1.921689ms
+Mesure 6: 2.110388ms
+Mesure 7: 1.859524ms
+Mesure 8: 1.883444ms
+Mesure 9: 1.917818ms
+Mesure 10: 1.878034ms
+Moyenne: 1.990519ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 11.751µs
+Mesure 2: 9.952µs
+Mesure 3: 10.015µs
+Mesure 4: 10.504µs
+Mesure 5: 9.854µs
+Mesure 6: 10.888µs
+Mesure 7: 11.17µs
+Mesure 8: 10.063µs
+Mesure 9: 11.551µs
+Mesure 10: 9.639µs
+Moyenne: 10.538µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 868.764µs
+Mesure 2: 776.706µs
+Mesure 3: 770.191µs
+Mesure 4: 766.599µs
+Mesure 5: 658.005µs
+Mesure 6: 803.026µs
+Mesure 7: 759.539µs
+Mesure 8: 803.961µs
+Mesure 9: 782.192µs
+Mesure 10: 751.392µs
+Moyenne: 774.037µs
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 72.406µs
+Mesure 2: 75.853µs
+Mesure 3: 73.271µs
+Mesure 4: 65.991µs
+Mesure 5: 65.786µs
+Mesure 6: 61.571µs
+Mesure 7: 62.586µs
+Mesure 8: 74.04µs
+Mesure 9: 75.406µs
+Mesure 10: 65.368µs
+Moyenne: 69.227µs
+
+*** FheUint1024:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 56.726609ms
+Mesure 2: 56.084926ms
+Mesure 3: 67.556574ms
+Mesure 4: 56.159695ms
+Mesure 5: 56.067901ms
+Mesure 6: 56.069031ms
+Mesure 7: 56.187106ms
+Mesure 8: 56.147419ms
+Mesure 9: 56.178814ms
+Mesure 10: 56.162286ms
+Moyenne: 57.334036ms
+
+Mesures individuelles pour Shift:
+Mesure 1: 3.617536ms
+Mesure 2: 3.597257ms
+Mesure 3: 3.566028ms
+Mesure 4: 3.500531ms
+Mesure 5: 3.559538ms
+Mesure 6: 3.52284ms
+Mesure 7: 3.750153ms
+Mesure 8: 3.712896ms
+Mesure 9: 3.822649ms
+Mesure 10: 3.764028ms
+Moyenne: 3.641345ms
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 16.632056493s
+Mesure 2: 16.684177197s
+Mesure 3: 16.652308282s
+Mesure 4: 16.643052915s
+Mesure 5: 16.664185402s
+Mesure 6: 16.640552565s
+Mesure 7: 16.630011943s
+Mesure 8: 16.68291544s
+Mesure 9: 16.702803354s
+Mesure 10: 16.676770962s
+Moyenne: 16.660883455s
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 20.415024182s
+Mesure 2: 20.526264187s
+Mesure 3: 20.317027934s
+Mesure 4: 20.354600338s
+Mesure 5: 20.702371008s
+Mesure 6: 20.369605972s
+Mesure 7: 20.402203745s
+Mesure 8: 20.645098157s
+Mesure 9: 20.360088705s
+Mesure 10: 20.36526133s
+Moyenne: 20.445754555s
+
+Mesures individuelles pour Casting:
+Mesure 1: 1.085403ms
+Mesure 2: 1.092379ms
+Mesure 3: 1.075856ms
+Mesure 4: 1.05477ms
+Mesure 5: 1.060883ms
+Mesure 6: 1.112105ms
+Mesure 7: 1.15262ms
+Mesure 8: 1.046663ms
+Mesure 9: 1.111489ms
+Mesure 10: 1.08714ms
+Moyenne: 1.08793ms
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 4.067839ms
+Mesure 2: 3.970096ms
+Mesure 3: 3.903204ms
+Mesure 4: 3.972907ms
+Mesure 5: 4.141349ms
+Mesure 6: 4.165404ms
+Mesure 7: 3.99769ms
+Mesure 8: 3.962425ms
+Mesure 9: 4.011476ms
+Mesure 10: 3.921766ms
+Moyenne: 4.011415ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 9.36µs
+Mesure 2: 9.142µs
+Mesure 3: 8.62µs
+Mesure 4: 8.914µs
+Mesure 5: 8.824µs
+Mesure 6: 10.197µs
+Mesure 7: 9.377µs
+Mesure 8: 10.141µs
+Mesure 9: 9.96µs
+Mesure 10: 8.571µs
+Moyenne: 9.31µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 1.829774ms
+Mesure 2: 1.713497ms
+Mesure 3: 1.633925ms
+Mesure 4: 1.626537ms
+Mesure 5: 1.798293ms
+Mesure 6: 1.810756ms
+Mesure 7: 1.644014ms
+Mesure 8: 1.722796ms
+Mesure 9: 1.803887ms
+Mesure 10: 1.654006ms
+Moyenne: 1.723748ms
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 68.648µs
+Mesure 2: 76.658µs
+Mesure 3: 66.789µs
+Mesure 4: 67.636µs
+Mesure 5: 66.279µs
+Mesure 6: 64.272µs
+Mesure 7: 68.385µs
+Mesure 8: 67.004µs
+Mesure 9: 67.414µs
+Mesure 10: 80.782µs
+Moyenne: 69.386µs
+
+*** Avec FheUint2048:
+Mesures individuelles pour Chiffrement:
+Mesure 1: 112.798808ms
+Mesure 2: 112.821737ms
+Mesure 3: 112.652368ms
+Mesure 4: 112.766628ms
+Mesure 5: 113.03129ms
+Mesure 6: 114.67358ms
+Mesure 7: 111.981159ms
+Mesure 8: 112.634795ms
+Mesure 9: 112.462617ms
+Mesure 10: 112.101932ms
+Moyenne: 112.792491ms
+
+Mesures individuelles pour Shift:
+Mesure 1: 7.493792ms
+Mesure 2: 7.356524ms
+Mesure 3: 7.488792ms
+Mesure 4: 7.741984ms
+Mesure 5: 7.427976ms
+Mesure 6: 7.786145ms
+Mesure 7: 7.399399ms
+Mesure 8: 7.641785ms
+Mesure 9: 7.740152ms
+Mesure 10: 7.460667ms
+Moyenne: 7.553721ms
+
+Mesures individuelles pour Addition constante:
+Mesure 1: 33.296451423s
+Mesure 2: 33.436807771s
+Mesure 3: 33.445430801s
+Mesure 4: 33.455211109s
+Mesure 5: 33.382849535s
+Mesure 6: 33.36549083s
+Mesure 7: 33.494335314s
+Mesure 8: 33.336344802s
+Mesure 9: 33.459578976s
+Mesure 10: 33.428643454s
+Moyenne: 33.410114401s
+
+Mesures individuelles pour Multiplication constante:
+Mesure 1: 40.82722372s
+Mesure 2: 40.87478251s
+Mesure 3: 41.180335557s
+Mesure 4: 40.968956193s
+Mesure 5: 40.972858943s
+Mesure 6: 41.163350402s
+Mesure 7: 40.806185512s
+Mesure 8: 41.002659265s
+Mesure 9: 41.25302024s
+Mesure 10: 40.814988304s
+Moyenne: 40.986436064s
+
+Mesures individuelles pour Casting:
+Mesure 1: 2.449166ms
+Mesure 2: 2.45807ms
+Mesure 3: 2.485788ms
+Mesure 4: 2.43466ms
+Mesure 5: 2.223763ms
+Mesure 6: 2.210363ms
+Mesure 7: 2.283385ms
+Mesure 8: 2.23743ms
+Mesure 9: 2.218632ms
+Mesure 10: 2.400228ms
+Moyenne: 2.340148ms
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 8.571456ms
+Mesure 2: 8.79953ms
+Mesure 3: 8.664907ms
+Mesure 4: 8.545807ms
+Mesure 5: 8.386448ms
+Mesure 6: 8.585112ms
+Mesure 7: 8.517785ms
+Mesure 8: 8.737509ms
+Mesure 9: 8.451228ms
+Mesure 10: 8.77699ms
+Moyenne: 8.603677ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 11.317µs
+Mesure 2: 11.266µs
+Mesure 3: 10.501µs
+Mesure 4: 10.59µs
+Mesure 5: 10.871µs
+Mesure 6: 11.951µs
+Mesure 7: 10.912µs
+Mesure 8: 10.441µs
+Mesure 9: 10.429µs
+Mesure 10: 10.35µs
+Moyenne: 10.862µs
+
+Mesures individuelles pour NOT:
+Mesure 1: 3.979528ms
+Mesure 2: 3.923296ms
+Mesure 3: 3.82374ms
+Mesure 4: 3.855174ms
+Mesure 5: 3.934634ms
+Mesure 6: 3.850532ms
+Mesure 7: 3.999111ms
+Mesure 8: 4.159303ms
+Mesure 9: 4.075013ms
+Mesure 10: 4.50602ms
+Moyenne: 4.010635ms
+
+Mesures individuelles pour Dechiffrement:
+Mesure 1: 74.432µs
+Mesure 2: 63.132µs
+Mesure 3: 61.602µs
+Mesure 4: 77.883µs
+Mesure 5: 63.116µs
+Mesure 6: 63.02µs
+Mesure 7: 68.533µs
+Mesure 8: 80.52µs
+Mesure 9: 67.361µs
+Mesure 10: 84.119µs
+Moyenne: 70.371µs

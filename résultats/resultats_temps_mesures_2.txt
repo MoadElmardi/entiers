@@ -1,0 +1,1116 @@
+*** Avec FheUint512
+Mesures individuelles pour Addition:
+Mesure 1: 8.630124533s
+Mesure 2: 8.353894007s
+Mesure 3: 8.427283282s
+Mesure 4: 8.37406023s
+Mesure 5: 8.291971334s
+Mesure 6: 8.307081778s
+Mesure 7: 8.31011672s
+Mesure 8: 8.305571008s
+Mesure 9: 8.377722042s
+Mesure 10: 8.373781964s
+Mesure 11: 8.324933866s
+Mesure 12: 8.316170637s
+Mesure 13: 8.393104933s
+Mesure 14: 8.359129248s
+Mesure 15: 8.419314859s
+Mesure 16: 8.366269654s
+Mesure 17: 8.391069956s
+Mesure 18: 8.342597799s
+Mesure 19: 8.353744328s
+Mesure 20: 8.322940845s
+Moyenne: 8.367044151s
+
+Mesures individuelles pour Soustraction:
+Mesure 1: 8.672097925s
+Mesure 2: 8.31572858s
+Mesure 3: 8.317066645s
+Mesure 4: 8.309642381s
+Mesure 5: 8.365696463s
+Mesure 6: 8.374952534s
+Mesure 7: 8.439819099s
+Mesure 8: 8.346533755s
+Mesure 9: 8.396607583s
+Mesure 10: 8.310068721s
+Mesure 11: 8.328538467s
+Mesure 12: 8.339979607s
+Mesure 13: 8.344586509s
+Mesure 14: 8.380651432s
+Mesure 15: 8.303130661s
+Mesure 16: 8.353444918s
+Mesure 17: 8.300854414s
+Mesure 18: 8.370793669s
+Mesure 19: 8.298530069s
+Mesure 20: 8.384838248s
+Moyenne: 8.362678084s
+
+Mesures individuelles pour Multiplication:
+Mesure 1: 839.706184201s
+Mesure 2: 842.064663597s
+Mesure 3: 841.543299889s
+Mesure 4: 841.22300772s
+Mesure 5: 843.601497494s
+Mesure 6: 840.768104819s
+Mesure 7: 841.40011164s
+Mesure 8: 839.391524659s
+Mesure 9: 842.15039411s
+Mesure 10: 844.069431964s
+Mesure 11: 841.244346739s
+Mesure 12: 839.052930206s
+Mesure 13: 835.560191289s
+Mesure 14: 836.424274526s
+Mesure 15: 836.59933023s
+Mesure 16: 836.259336629s
+Mesure 17: 835.252790025s
+Mesure 18: 834.637449953s
+Mesure 19: 834.46840449s
+Mesure 20: 832.33110995s
+Moyenne: 838.887419206s
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 1.861064673s
+Mesure 2: 1.86235453s
+Mesure 3: 1.829095663s
+Mesure 4: 1.890681871s
+Mesure 5: 1.869469099s
+Mesure 6: 1.845356815s
+Mesure 7: 2.096800467s
+Mesure 8: 1.845400802s
+Mesure 9: 1.884204004s
+Mesure 10: 1.845458147s
+Mesure 11: 1.829531376s
+Mesure 12: 1.849482408s
+Mesure 13: 1.919202185s
+Mesure 14: 1.830551906s
+Mesure 15: 1.920730869s
+Mesure 16: 1.876616559s
+Mesure 17: 1.837722276s
+Mesure 18: 1.842029616s
+Mesure 19: 1.853416746s
+Mesure 20: 1.81801121s
+Moyenne: 1.870359061s
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 1.84417832s
+Mesure 2: 1.881648024s
+Mesure 3: 1.852851563s
+Mesure 4: 1.846276608s
+Mesure 5: 1.884372035s
+Mesure 6: 1.899692732s
+Mesure 7: 1.929912527s
+Mesure 8: 1.870278333s
+Mesure 9: 1.835912628s
+Mesure 10: 1.853132056s
+Mesure 11: 1.912826209s
+Mesure 12: 1.849916222s
+Mesure 13: 2.090027323s
+Mesure 14: 1.827288332s
+Mesure 15: 1.902660434s
+Mesure 16: 1.851716118s
+Mesure 17: 1.869619613s
+Mesure 18: 1.880161576s
+Mesure 19: 1.865052421s
+Mesure 20: 1.887454865s
+Moyenne: 1.881748896s
+
+Mesures individuelles pour XOR binaire:
+Mesure 1: 1.889862079s
+Mesure 2: 1.936175264s
+Mesure 3: 1.852089985s
+Mesure 4: 1.837306197s
+Mesure 5: 1.890157763s
+Mesure 6: 1.849087827s
+Mesure 7: 1.905913s
+Mesure 8: 2.147703631s
+Mesure 9: 2.006199219s
+Mesure 10: 2.14633451s
+Mesure 11: 1.857470119s
+Mesure 12: 1.874523382s
+Mesure 13: 1.851211289s
+Mesure 14: 1.856510589s
+Mesure 15: 1.857404653s
+Mesure 16: 1.983049433s
+Mesure 17: 1.873662412s
+Mesure 18: 1.935556558s
+Mesure 19: 1.866285155s
+Mesure 20: 1.866076608s
+Moyenne: 1.914128983s
+
+Mesures individuelles pour Egalité:
+Mesure 1: 2.399251046s
+Mesure 2: 2.410362427s
+Mesure 3: 2.394460591s
+Mesure 4: 2.448952941s
+Mesure 5: 2.402126083s
+Mesure 6: 2.396098619s
+Mesure 7: 2.422584463s
+Mesure 8: 2.388136271s
+Mesure 9: 2.602753375s
+Mesure 10: 2.470895732s
+Mesure 11: 2.703957518s
+Mesure 12: 2.402190701s
+Mesure 13: 2.477959847s
+Mesure 14: 2.412806867s
+Mesure 15: 2.394316722s
+Mesure 16: 2.649292822s
+Mesure 17: 2.58147022s
+Mesure 18: 2.648024849s
+Mesure 19: 2.445708549s
+Mesure 20: 2.486078662s
+Moyenne: 2.476871415s
+
+Mesures individuelles pour Inégalité:
+Mesure 1: 2.697857449s
+Mesure 2: 2.651214214s
+Mesure 3: 2.40989079s
+Mesure 4: 2.383384697s
+Mesure 5: 2.390966993s
+Mesure 6: 2.452565248s
+Mesure 7: 2.434694831s
+Mesure 8: 2.386351503s
+Mesure 9: 2.391839962s
+Mesure 10: 2.412773639s
+Mesure 11: 2.408995133s
+Mesure 12: 2.485101455s
+Mesure 13: 2.423148s
+Mesure 14: 2.674790652s
+Mesure 15: 2.393355058s
+Mesure 16: 2.455457546s
+Mesure 17: 2.439563952s
+Mesure 18: 2.453719444s
+Mesure 19: 2.501914216s
+Mesure 20: 2.694954263s
+Moyenne: 2.477126952s
+
+Mesures individuelles pour Supérieur strictement:
+Mesure 1: 4.811495158s
+Mesure 2: 4.786297339s
+Mesure 3: 4.972542379s
+Mesure 4: 4.992187252s
+Mesure 5: 4.964562149s
+Mesure 6: 4.826516373s
+Mesure 7: 4.72246279s
+Mesure 8: 4.690733256s
+Mesure 9: 4.732867833s
+Mesure 10: 4.720198826s
+Mesure 11: 4.795784976s
+Mesure 12: 4.906320708s
+Mesure 13: 4.761287287s
+Mesure 14: 4.781041755s
+Mesure 15: 4.882726295s
+Mesure 16: 4.759807573s
+Mesure 17: 4.9828293s
+Mesure 18: 4.740886748s
+Mesure 19: 4.963938376s
+Mesure 20: 4.757376015s
+Moyenne: 4.827593119s
+
+Mesures individuelles pour Supérieur ou égal:
+Mesure 1: 4.721900075s
+Mesure 2: 4.746192292s
+Mesure 3: 4.720274646s
+Mesure 4: 4.747928688s
+Mesure 5: 4.696353455s
+Mesure 6: 4.918413541s
+Mesure 7: 4.988156498s
+Mesure 8: 4.652816166s
+Mesure 9: 4.806886014s
+Mesure 10: 4.78297355s
+Mesure 11: 4.726911853s
+Mesure 12: 4.748186112s
+Mesure 13: 4.979257864s
+Mesure 14: 4.783209368s
+Mesure 15: 4.927729978s
+Mesure 16: 4.729632594s
+Mesure 17: 4.810502491s
+Mesure 18: 4.700298109s
+Mesure 19: 4.742562899s
+Mesure 20: 4.718484545s
+Moyenne: 4.782433536s
+
+*** Avec FheUint256:
+Mesures individuelles pour Addition:
+Mesure 1: 4.263061712s
+Mesure 2: 4.164236167s
+Mesure 3: 4.147704415s
+Mesure 4: 4.161559377s
+Mesure 5: 4.156764692s
+Mesure 6: 4.208459262s
+Mesure 7: 4.185387195s
+Mesure 8: 4.17713326s
+Mesure 9: 4.178322754s
+Mesure 10: 4.208222766s
+Mesure 11: 4.238539414s
+Mesure 12: 4.17019328s
+Mesure 13: 4.15423975s
+Mesure 14: 4.198355426s
+Mesure 15: 4.191987537s
+Mesure 16: 4.135765533s
+Mesure 17: 4.130084484s
+Mesure 18: 4.165740881s
+Mesure 19: 4.145060594s
+Mesure 20: 4.117858692s
+Moyenne: 4.174933859s
+
+Mesures individuelles pour Soustraction:
+Mesure 1: 4.16341039s
+Mesure 2: 4.143295737s
+Mesure 3: 4.14772274s
+Mesure 4: 4.152656102s
+Mesure 5: 4.18917471s
+Mesure 6: 4.17084198s
+Mesure 7: 4.159007598s
+Mesure 8: 4.169125501s
+Mesure 9: 4.245708083s
+Mesure 10: 4.13378607s
+Mesure 11: 4.135756042s
+Mesure 12: 4.148313344s
+Mesure 13: 4.227386556s
+Mesure 14: 4.165952713s
+Mesure 15: 4.141664357s
+Mesure 16: 4.132734834s
+Mesure 17: 4.146188491s
+Mesure 18: 4.171075914s
+Mesure 19: 4.140243912s
+Mesure 20: 4.165532551s
+Moyenne: 4.162478881s
+
+Mesures individuelles pour Multiplication:
+Mesure 1: 209.506973461s
+Mesure 2: 208.426681836s
+Mesure 3: 208.157087873s
+Mesure 4: 208.915017922s
+Mesure 5: 208.694764199s
+Mesure 6: 209.497783743s
+Mesure 7: 209.438033308s
+Mesure 8: 209.825190419s
+Mesure 9: 209.920925666s
+Mesure 10: 209.499071661s
+Mesure 11: 209.887956767s
+Mesure 12: 209.675157451s
+Mesure 13: 210.014312693s
+Mesure 14: 210.072561752s
+Mesure 15: 209.9024175s
+Mesure 16: 207.671047995s
+Mesure 17: 207.525001967s
+Mesure 18: 206.932142691s
+Mesure 19: 207.91955005s
+Mesure 20: 207.430594557s
+Moyenne: 208.945613675s
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 922.177047ms
+Mesure 2: 927.864093ms
+Mesure 3: 915.104994ms
+Mesure 4: 941.875275ms
+Mesure 5: 932.054934ms
+Mesure 6: 946.323553ms
+Mesure 7: 944.023013ms
+Mesure 8: 967.460667ms
+Mesure 9: 928.080701ms
+Mesure 10: 935.330657ms
+Mesure 11: 955.766207ms
+Mesure 12: 948.422754ms
+Mesure 13: 920.136782ms
+Mesure 14: 917.423893ms
+Mesure 15: 921.879427ms
+Mesure 16: 944.820778ms
+Mesure 17: 908.45056ms
+Mesure 18: 1.076275733s
+Mesure 19: 919.79771ms
+Mesure 20: 935.184426ms
+Moyenne: 940.42266ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 938.989865ms
+Mesure 2: 922.890078ms
+Mesure 3: 950.839551ms
+Mesure 4: 943.382902ms
+Mesure 5: 937.804141ms
+Mesure 6: 957.836609ms
+Mesure 7: 959.458141ms
+Mesure 8: 1.089756626s
+Mesure 9: 920.708469ms
+Mesure 10: 925.873766ms
+Mesure 11: 949.391364ms
+Mesure 12: 1.058055055s
+Mesure 13: 940.327729ms
+Mesure 14: 921.323684ms
+Mesure 15: 930.723455ms
+Mesure 16: 926.886125ms
+Mesure 17: 1.028452883s
+Mesure 18: 1.05466865s
+Mesure 19: 929.960885ms
+Mesure 20: 917.352149ms
+Moyenne: 960.234106ms
+
+Mesures individuelles pour XOR binaire:
+Mesure 1: 892.223036ms
+Mesure 2: 921.80695ms
+Mesure 3: 1.100334971s
+Mesure 4: 949.270532ms
+Mesure 5: 927.354931ms
+Mesure 6: 936.110213ms
+Mesure 7: 918.477679ms
+Mesure 8: 1.042341292s
+Mesure 9: 940.381145ms
+Mesure 10: 955.414114ms
+Mesure 11: 963.066485ms
+Mesure 12: 1.114444803s
+Mesure 13: 928.953488ms
+Mesure 14: 917.205763ms
+Mesure 15: 912.604353ms
+Mesure 16: 910.092918ms
+Mesure 17: 1.08561164s
+Mesure 18: 934.320032ms
+Mesure 19: 916.174061ms
+Mesure 20: 941.307874ms
+Moyenne: 960.374814ms
+
+Mesures individuelles pour Egalité:
+Mesure 1: 1.276408669s
+Mesure 2: 1.280376942s
+Mesure 3: 1.356221003s
+Mesure 4: 1.268351333s
+Mesure 5: 1.259552299s
+Mesure 6: 1.267184288s
+Mesure 7: 1.291124939s
+Mesure 8: 1.249270648s
+Mesure 9: 1.268635548s
+Mesure 10: 1.27176199s
+Mesure 11: 1.269233687s
+Mesure 12: 1.290758777s
+Mesure 13: 1.244778104s
+Mesure 14: 1.25367257s
+Mesure 15: 1.277941138s
+Mesure 16: 1.456967925s
+Mesure 17: 1.23238951s
+Mesure 18: 1.262747158s
+Mesure 19: 1.267347683s
+Mesure 20: 1.258223548s
+Moyenne: 1.280147387s
+
+Mesures individuelles pour Inégalité:
+Mesure 1: 1.256122891s
+Mesure 2: 1.435108849s
+Mesure 3: 1.236785724s
+Mesure 4: 1.260825446s
+Mesure 5: 1.271699743s
+Mesure 6: 1.251710185s
+Mesure 7: 1.343513105s
+Mesure 8: 1.236435442s
+Mesure 9: 1.249547548s
+Mesure 10: 1.249322163s
+Mesure 11: 1.285762948s
+Mesure 12: 1.263724919s
+Mesure 13: 1.275229635s
+Mesure 14: 1.256465339s
+Mesure 15: 1.307490432s
+Mesure 16: 1.331932302s
+Mesure 17: 1.253724281s
+Mesure 18: 1.254978757s
+Mesure 19: 1.23474133s
+Mesure 20: 1.310966363s
+Moyenne: 1.27830437s
+
+Mesures individuelles pour Supérieur strictement:
+Mesure 1: 2.357391818s
+Mesure 2: 2.128439132s
+Mesure 3: 2.122155601s
+Mesure 4: 2.134619966s
+Mesure 5: 2.130077891s
+Mesure 6: 2.151419288s
+Mesure 7: 2.298060875s
+Mesure 8: 2.144995093s
+Mesure 9: 2.14526151s
+Mesure 10: 2.094631404s
+Mesure 11: 2.347143755s
+Mesure 12: 2.209340358s
+Mesure 13: 2.119033052s
+Mesure 14: 2.141635233s
+Mesure 15: 2.60158574s
+Mesure 16: 2.125870754s
+Mesure 17: 2.122048771s
+Mesure 18: 2.138228162s
+Mesure 19: 2.113782875s
+Mesure 20: 2.111070199s
+Moyenne: 2.186839573s
+
+Mesures individuelles pour Supérieur ou égal:
+Mesure 1: 2.193844288s
+Mesure 2: 2.135326131s
+Mesure 3: 2.149078526s
+Mesure 4: 2.171177107s
+Mesure 5: 2.141865361s
+Mesure 6: 2.332579085s
+Mesure 7: 2.116614612s
+Mesure 8: 2.13230005s
+Mesure 9: 2.148347405s
+Mesure 10: 2.237713704s
+Mesure 11: 2.166149873s
+Mesure 12: 2.119660798s
+Mesure 13: 2.132951248s
+Mesure 14: 2.270484957s
+Mesure 15: 2.151362811s
+Mesure 16: 2.189075866s
+Mesure 17: 2.154886784s
+Mesure 18: 2.10722728s
+Mesure 19: 2.104751917s
+Mesure 20: 2.120970944s
+Moyenne: 2.163818437s
+
+*** Avec FheUint128:
+Mesures individuelles pour Addition:
+Mesure 1: 1.880103649s
+Mesure 2: 1.850520002s
+Mesure 3: 1.816846614s
+Mesure 4: 1.876184588s
+Mesure 5: 1.835984744s
+Mesure 6: 1.894142145s
+Mesure 7: 1.883793781s
+Mesure 8: 1.763329488s
+Mesure 9: 1.695844215s
+Mesure 10: 1.700617068s
+Moyenne: 1.819736629s
+
+Mesures individuelles pour Soustraction:
+Mesure 1: 1.635895983s
+Mesure 2: 1.633972125s
+Mesure 3: 1.625838747s
+Mesure 4: 1.623535568s
+Mesure 5: 1.661102685s
+Mesure 6: 1.620165548s
+Mesure 7: 1.694349227s
+Mesure 8: 1.781318503s
+Mesure 9: 1.865041006s
+Mesure 10: 1.843219476s
+Moyenne: 1.698443886s
+
+Mesures individuelles pour Multiplication:
+Mesure 1: 55.882105571s
+Mesure 2: 55.741424556s
+Mesure 3: 55.638773203s
+Mesure 4: 55.798859639s
+Mesure 5: 54.996909235s
+Mesure 6: 55.180660786s
+Mesure 7: 55.183855904s
+Mesure 8: 54.902415563s
+Mesure 9: 55.327007373s
+Mesure 10: 55.24229485s
+Moyenne: 55.389430668s
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 490.236274ms
+Mesure 2: 469.649487ms
+Mesure 3: 473.506755ms
+Mesure 4: 480.011178ms
+Mesure 5: 467.589412ms
+Mesure 6: 488.023051ms
+Mesure 7: 479.287069ms
+Mesure 8: 490.286846ms
+Mesure 9: 477.654402ms
+Mesure 10: 486.262398ms
+Moyenne: 480.250687ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 477.166882ms
+Mesure 2: 473.201211ms
+Mesure 3: 476.607947ms
+Mesure 4: 532.606006ms
+Mesure 5: 475.071698ms
+Mesure 6: 498.072936ms
+Mesure 7: 476.954904ms
+Mesure 8: 483.532002ms
+Mesure 9: 489.278217ms
+Mesure 10: 489.364167ms
+Moyenne: 487.185597ms
+
+Mesures individuelles pour XOR binaire:
+Mesure 1: 501.3282ms
+Mesure 2: 480.090367ms
+Mesure 3: 489.955625ms
+Mesure 4: 508.7768ms
+Mesure 5: 481.752394ms
+Mesure 6: 476.109634ms
+Mesure 7: 472.840415ms
+Mesure 8: 479.662206ms
+Mesure 9: 464.331916ms
+Mesure 10: 504.932029ms
+Moyenne: 485.977958ms
+
+Mesures individuelles pour Egalité:
+Mesure 1: 664.162416ms
+Mesure 2: 678.641788ms
+Mesure 3: 651.772855ms
+Mesure 4: 681.594024ms
+Mesure 5: 695.612453ms
+Mesure 6: 661.942993ms
+Mesure 7: 659.600678ms
+Mesure 8: 668.33421ms
+Mesure 9: 673.623558ms
+Mesure 10: 668.408989ms
+Moyenne: 670.369396ms
+
+Mesures individuelles pour Inégalité:
+Mesure 1: 679.890043ms
+Mesure 2: 680.600237ms
+Mesure 3: 679.140493ms
+Mesure 4: 655.542804ms
+Mesure 5: 654.531652ms
+Mesure 6: 671.437443ms
+Mesure 7: 664.599221ms
+Mesure 8: 679.43303ms
+Mesure 9: 649.438217ms
+Mesure 10: 654.4769ms
+Moyenne: 666.909004ms
+
+Mesures individuelles pour Supérieur strictement:
+Mesure 1: 1.003850251s
+Mesure 2: 1.015674445s
+Mesure 3: 1.009574544s
+Mesure 4: 1.007407527s
+Mesure 5: 980.030869ms
+Mesure 6: 1.02456222s
+Mesure 7: 997.643554ms
+Mesure 8: 1.0024913s
+Mesure 9: 996.635065ms
+Mesure 10: 1.015999634s
+Moyenne: 1.00538694s
+
+Mesures individuelles pour Supérieur ou égal:
+Mesure 1: 1.037432449s
+Mesure 2: 1.062882059s
+Mesure 3: 1.05437951s
+Mesure 4: 1.091566361s
+Mesure 5: 1.002096798s
+Mesure 6: 1.020373207s
+Mesure 7: 999.974445ms
+Mesure 8: 1.006622299s
+Mesure 9: 1.045002178s
+Mesure 10: 1.014046904s
+Moyenne: 1.033437621s
+
+*** Avec FheUint64:
+Mesures individuelles pour Addition:
+Mesure 1: 836.119833ms
+Mesure 2: 851.375958ms
+Mesure 3: 837.983765ms
+Mesure 4: 877.374163ms
+Mesure 5: 839.576398ms
+Mesure 6: 815.442515ms
+Mesure 7: 830.108553ms
+Mesure 8: 859.992872ms
+Mesure 9: 817.951838ms
+Mesure 10: 837.879865ms
+Moyenne: 840.380576ms
+
+Mesures individuelles pour Soustraction:
+Mesure 1: 814.897247ms
+Mesure 2: 803.023486ms
+Mesure 3: 812.037822ms
+Mesure 4: 805.984821ms
+Mesure 5: 809.389167ms
+Mesure 6: 820.393835ms
+Mesure 7: 814.158551ms
+Mesure 8: 822.079155ms
+Mesure 9: 817.338195ms
+Mesure 10: 811.438336ms
+Moyenne: 813.074061ms
+
+Mesures individuelles pour Multiplication:
+Mesure 1: 14.109328298s
+Mesure 2: 13.512202514s
+Mesure 3: 13.439991207s
+Mesure 4: 13.615880414s
+Mesure 5: 13.520091118s
+Mesure 6: 13.405744902s
+Mesure 7: 13.401679629s
+Mesure 8: 13.485193423s
+Mesure 9: 13.638842489s
+Mesure 10: 13.758267705s
+Moyenne: 13.588722169s
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 244.252614ms
+Mesure 2: 226.356152ms
+Mesure 3: 238.288973ms
+Mesure 4: 233.342829ms
+Mesure 5: 229.402136ms
+Mesure 6: 232.968671ms
+Mesure 7: 236.514294ms
+Mesure 8: 239.31897ms
+Mesure 9: 241.484849ms
+Mesure 10: 236.315409ms
+Moyenne: 235.824489ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 238.984406ms
+Mesure 2: 235.910087ms
+Mesure 3: 233.582253ms
+Mesure 4: 244.234516ms
+Mesure 5: 233.119643ms
+Mesure 6: 232.622086ms
+Mesure 7: 233.691022ms
+Mesure 8: 253.950231ms
+Mesure 9: 234.815645ms
+Mesure 10: 229.295036ms
+Moyenne: 237.020492ms
+
+Mesures individuelles pour XOR binaire:
+Mesure 1: 239.92766ms
+Mesure 2: 231.214206ms
+Mesure 3: 239.902424ms
+Mesure 4: 240.971995ms
+Mesure 5: 234.856584ms
+Mesure 6: 239.127602ms
+Mesure 7: 236.371124ms
+Mesure 8: 232.381707ms
+Mesure 9: 235.715865ms
+Mesure 10: 235.122811ms
+Moyenne: 236.559197ms
+
+Mesures individuelles pour Egalité:
+Mesure 1: 354.567129ms
+Mesure 2: 356.858343ms
+Mesure 3: 361.107706ms
+Mesure 4: 360.919975ms
+Mesure 5: 357.216198ms
+Mesure 6: 351.15745ms
+Mesure 7: 371.947021ms
+Mesure 8: 352.920027ms
+Mesure 9: 362.043618ms
+Mesure 10: 358.94126ms
+Moyenne: 358.767872ms
+
+Mesures individuelles pour Inégalité:
+Mesure 1: 364.659388ms
+Mesure 2: 360.04431ms
+Mesure 3: 357.577807ms
+Mesure 4: 360.039613ms
+Mesure 5: 359.813214ms
+Mesure 6: 358.859768ms
+Mesure 7: 353.678253ms
+Mesure 8: 354.171093ms
+Mesure 9: 355.676899ms
+Mesure 10: 370.33449ms
+Moyenne: 359.485483ms
+
+Mesures individuelles pour Supérieur strictement:
+Mesure 1: 403.489732ms
+Mesure 2: 398.804138ms
+Mesure 3: 385.742111ms
+Mesure 4: 405.648479ms
+Mesure 5: 387.928959ms
+Mesure 6: 397.617656ms
+Mesure 7: 381.161483ms
+Mesure 8: 400.58451ms
+Mesure 9: 405.615817ms
+Mesure 10: 424.512309ms
+Moyenne: 399.110519ms
+
+Mesures individuelles pour Supérieur ou égal:
+Mesure 1: 397.475646ms
+Mesure 2: 390.762863ms
+Mesure 3: 402.029062ms
+Mesure 4: 380.560829ms
+Mesure 5: 396.521657ms
+Mesure 6: 388.812399ms
+Mesure 7: 397.857541ms
+Mesure 8: 397.62414ms
+Mesure 9: 402.018943ms
+Mesure 10: 392.122368ms
+Moyenne: 394.578544ms
+
+*** Avec FheUint32:
+Mesures individuelles pour Addition:
+Mesure 1: 425.43697ms
+Mesure 2: 431.133804ms
+Mesure 3: 424.930202ms
+Mesure 4: 410.084846ms
+Mesure 5: 414.65213ms
+Mesure 6: 397.678739ms
+Mesure 7: 406.687197ms
+Mesure 8: 406.603306ms
+Mesure 9: 404.912167ms
+Mesure 10: 400.0614ms
+Moyenne: 412.218076ms
+
+Mesures individuelles pour Soustraction:
+Mesure 1: 408.039232ms
+Mesure 2: 376.651876ms
+Mesure 3: 392.533795ms
+Mesure 4: 392.372392ms
+Mesure 5: 377.250582ms
+Mesure 6: 379.984523ms
+Mesure 7: 382.722189ms
+Mesure 8: 375.76713ms
+Mesure 9: 379.881343ms
+Mesure 10: 382.043622ms
+Moyenne: 384.724668ms
+
+Mesures individuelles pour Multiplication:
+Mesure 1: 3.495207264s
+Mesure 2: 3.549991451s
+Mesure 3: 3.482638696s
+Mesure 4: 3.537162971s
+Mesure 5: 3.506993779s
+Mesure 6: 3.486194464s
+Mesure 7: 3.54660875s
+Mesure 8: 3.479585867s
+Mesure 9: 3.516380248s
+Mesure 10: 3.505815621s
+Moyenne: 3.510657911s
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 118.594655ms
+Mesure 2: 114.759193ms
+Mesure 3: 116.585965ms
+Mesure 4: 116.505842ms
+Mesure 5: 114.080207ms
+Mesure 6: 116.725664ms
+Mesure 7: 114.015411ms
+Mesure 8: 114.254725ms
+Mesure 9: 119.994115ms
+Mesure 10: 112.282156ms
+Moyenne: 115.779793ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 113.10379ms
+Mesure 2: 115.417881ms
+Mesure 3: 119.581231ms
+Mesure 4: 121.290228ms
+Mesure 5: 118.352415ms
+Mesure 6: 124.062046ms
+Mesure 7: 120.070566ms
+Mesure 8: 118.56205ms
+Mesure 9: 119.864826ms
+Mesure 10: 129.028221ms
+Moyenne: 119.933325ms
+
+Mesures individuelles pour XOR binaire:
+Mesure 1: 115.587971ms
+Mesure 2: 115.594552ms
+Mesure 3: 124.858582ms
+Mesure 4: 114.964846ms
+Mesure 5: 114.631381ms
+Mesure 6: 115.687186ms
+Mesure 7: 119.424286ms
+Mesure 8: 119.799374ms
+Mesure 9: 115.829644ms
+Mesure 10: 112.683371ms
+Moyenne: 116.906119ms
+
+Mesures individuelles pour Egalité:
+Mesure 1: 179.946789ms
+Mesure 2: 198.161404ms
+Mesure 3: 193.459649ms
+Mesure 4: 193.51626ms
+Mesure 5: 185.358771ms
+Mesure 6: 190.756954ms
+Mesure 7: 200.840526ms
+Mesure 8: 194.288509ms
+Mesure 9: 188.8727ms
+Mesure 10: 184.598436ms
+Moyenne: 190.979999ms
+
+Mesures individuelles pour Inégalité:
+Mesure 1: 183.496774ms
+Mesure 2: 202.716534ms
+Mesure 3: 195.459162ms
+Mesure 4: 201.822244ms
+Mesure 5: 192.300151ms
+Mesure 6: 177.812722ms
+Mesure 7: 193.269219ms
+Mesure 8: 192.195904ms
+Mesure 9: 192.213328ms
+Mesure 10: 188.550843ms
+Moyenne: 191.983688ms
+
+Mesures individuelles pour Supérieur strictement:
+Mesure 1: 231.412572ms
+Mesure 2: 241.995925ms
+Mesure 3: 215.185196ms
+Mesure 4: 236.226429ms
+Mesure 5: 224.788808ms
+Mesure 6: 228.427476ms
+Mesure 7: 226.434264ms
+Mesure 8: 230.932475ms
+Mesure 9: 237.224512ms
+Mesure 10: 226.286492ms
+Moyenne: 229.891414ms
+
+Mesures individuelles pour Supérieur ou égal:
+Mesure 1: 227.904836ms
+Mesure 2: 230.793954ms
+Mesure 3: 228.350049ms
+Mesure 4: 236.760401ms
+Mesure 5: 220.084439ms
+Mesure 6: 224.685143ms
+Mesure 7: 227.077133ms
+Mesure 8: 243.012308ms
+Mesure 9: 227.90982ms
+Mesure 10: 209.971184ms
+Moyenne: 227.654926ms
+
+*** Avec FheUint16:
+Mesures individuelles pour Addition:
+Mesure 1: 218.929308ms
+Mesure 2: 198.990819ms
+Mesure 3: 201.944357ms
+Mesure 4: 199.98055ms
+Mesure 5: 200.243978ms
+Mesure 6: 195.798587ms
+Mesure 7: 197.511994ms
+Mesure 8: 194.651954ms
+Mesure 9: 194.603118ms
+Mesure 10: 198.770418ms
+Moyenne: 200.142508ms
+
+Mesures individuelles pour Soustraction:
+Mesure 1: 178.454034ms
+Mesure 2: 170.374888ms
+Mesure 3: 167.229919ms
+Mesure 4: 166.663363ms
+Mesure 5: 167.928022ms
+Mesure 6: 168.645365ms
+Mesure 7: 165.628511ms
+Mesure 8: 170.6872ms
+Mesure 9: 171.248761ms
+Mesure 10: 169.954412ms
+Moyenne: 169.681447ms
+
+Mesures individuelles pour Multiplication:
+Mesure 1: 1.049480697s
+Mesure 2: 985.585781ms
+Mesure 3: 985.300186ms
+Mesure 4: 1.015632502s
+Mesure 5: 978.767188ms
+Mesure 6: 958.954421ms
+Mesure 7: 1.000366051s
+Mesure 8: 1.002427927s
+Mesure 9: 1.007922195s
+Mesure 10: 970.448594ms
+Moyenne: 995.488554ms
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 55.961498ms
+Mesure 2: 57.703975ms
+Mesure 3: 55.918287ms
+Mesure 4: 57.180505ms
+Mesure 5: 55.64138ms
+Mesure 6: 57.567091ms
+Mesure 7: 55.927216ms
+Mesure 8: 56.674701ms
+Mesure 9: 58.409449ms
+Mesure 10: 55.851999ms
+Moyenne: 56.68361ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 55.40339ms
+Mesure 2: 55.334168ms
+Mesure 3: 55.215176ms
+Mesure 4: 55.220552ms
+Mesure 5: 56.71939ms
+Mesure 6: 66.690801ms
+Mesure 7: 58.082559ms
+Mesure 8: 54.972017ms
+Mesure 9: 57.301778ms
+Mesure 10: 55.427691ms
+Moyenne: 57.036752ms
+
+Mesures individuelles pour XOR binaire:
+Mesure 1: 63.961646ms
+Mesure 2: 56.064072ms
+Mesure 3: 56.218176ms
+Mesure 4: 55.483535ms
+Mesure 5: 54.895192ms
+Mesure 6: 55.852851ms
+Mesure 7: 55.049551ms
+Mesure 8: 55.428385ms
+Mesure 9: 54.80207ms
+Mesure 10: 55.213736ms
+Moyenne: 56.296921ms
+
+Mesures individuelles pour Egalité:
+Mesure 1: 126.101287ms
+Mesure 2: 121.855662ms
+Mesure 3: 127.346319ms
+Mesure 4: 122.836996ms
+Mesure 5: 120.535136ms
+Mesure 6: 121.909811ms
+Mesure 7: 122.786558ms
+Mesure 8: 123.839574ms
+Mesure 9: 122.716618ms
+Mesure 10: 123.61328ms
+Moyenne: 123.354124ms
+
+Mesures individuelles pour Inégalité:
+Mesure 1: 132.45668ms
+Mesure 2: 123.759248ms
+Mesure 3: 122.361598ms
+Mesure 4: 121.53251ms
+Mesure 5: 121.696525ms
+Mesure 6: 125.164378ms
+Mesure 7: 122.314624ms
+Mesure 8: 123.395966ms
+Mesure 9: 120.909723ms
+Mesure 10: 120.996916ms
+Moyenne: 123.458816ms
+
+Mesures individuelles pour Supérieur strictement:
+Mesure 1: 120.737028ms
+Mesure 2: 122.67181ms
+Mesure 3: 119.197117ms
+Mesure 4: 126.875468ms
+Mesure 5: 120.071374ms
+Mesure 6: 120.204642ms
+Mesure 7: 119.391358ms
+Mesure 8: 119.269105ms
+Mesure 9: 121.847531ms
+Mesure 10: 119.601503ms
+Moyenne: 120.986693ms
+
+Mesures individuelles pour Supérieur ou égal:
+Mesure 1: 120.411678ms
+Mesure 2: 120.207532ms
+Mesure 3: 125.280209ms
+Mesure 4: 129.593535ms
+Mesure 5: 120.762131ms
+Mesure 6: 119.703516ms
+Mesure 7: 119.686502ms
+Mesure 8: 131.256251ms
+Mesure 9: 122.119777ms
+Mesure 10: 122.437174ms
+Moyenne: 123.14583ms
+
+*** Avec FheUint8:
+Mesures individuelles pour Addition:
+Mesure 1: 137.455059ms
+Mesure 2: 120.928907ms
+Mesure 3: 121.027509ms
+Mesure 4: 128.54111ms
+Mesure 5: 121.923069ms
+Mesure 6: 131.086458ms
+Mesure 7: 151.437245ms
+Mesure 8: 144.131338ms
+Mesure 9: 150.680741ms
+Mesure 10: 130.181477ms
+Moyenne: 133.739291ms
+
+Mesures individuelles pour Soustraction:
+Mesure 1: 97.629705ms
+Mesure 2: 120.766082ms
+Mesure 3: 97.556438ms
+Mesure 4: 114.028598ms
+Mesure 5: 118.312728ms
+Mesure 6: 127.02935ms
+Mesure 7: 97.483129ms
+Mesure 8: 108.30554ms
+Mesure 9: 120.661276ms
+Mesure 10: 118.767335ms
+Moyenne: 112.054018ms
+
+Mesures individuelles pour Multiplication:
+Mesure 1: 263.427329ms
+Mesure 2: 291.716581ms
+Mesure 3: 263.787173ms
+Mesure 4: 276.587121ms
+Mesure 5: 264.213595ms
+Mesure 6: 273.263267ms
+Mesure 7: 276.087675ms
+Mesure 8: 277.248677ms
+Mesure 9: 262.603942ms
+Mesure 10: 264.127859ms
+Moyenne: 271.306321ms
+
+Mesures individuelles pour ET binaire:
+Mesure 1: 44.321898ms
+Mesure 2: 32.34246ms
+Mesure 3: 42.490871ms
+Mesure 4: 41.472733ms
+Mesure 5: 45.708455ms
+Mesure 6: 46.175815ms
+Mesure 7: 46.795205ms
+Mesure 8: 43.226267ms
+Mesure 9: 32.311791ms
+Mesure 10: 55.448105ms
+Moyenne: 43.02936ms
+
+Mesures individuelles pour OU binaire:
+Mesure 1: 45.14889ms
+Mesure 2: 55.319172ms
+Mesure 3: 42.604454ms
+Mesure 4: 32.429758ms
+Mesure 5: 41.46702ms
+Mesure 6: 41.475212ms
+Mesure 7: 32.321837ms
+Mesure 8: 55.26227ms
+Mesure 9: 32.351622ms
+Mesure 10: 43.640124ms
+Moyenne: 42.202035ms
+
+Mesures individuelles pour XOR binaire:
+Mesure 1: 41.264984ms
+Mesure 2: 41.780242ms
+Mesure 3: 32.370584ms
+Mesure 4: 32.446408ms
+Mesure 5: 32.361013ms
+Mesure 6: 32.308691ms
+Mesure 7: 32.267788ms
+Mesure 8: 38.511347ms
+Mesure 9: 32.372272ms
+Mesure 10: 52.870121ms
+Moyenne: 36.855345ms
+
+Mesures individuelles pour Egalité:
+Mesure 1: 74.466414ms
+Mesure 2: 83.296662ms
+Mesure 3: 64.902029ms
+Mesure 4: 64.738105ms
+Mesure 5: 64.790435ms
+Mesure 6: 64.861594ms
+Mesure 7: 64.845661ms
+Mesure 8: 65.038909ms
+Mesure 9: 64.877012ms
+Mesure 10: 80.146593ms
+Moyenne: 69.196341ms
+
+Mesures individuelles pour Inégalité:
+Mesure 1: 87.488416ms
+Mesure 2: 64.686376ms
+Mesure 3: 64.735386ms
+Mesure 4: 64.67484ms
+Mesure 5: 64.958866ms
+Mesure 6: 65.007334ms
+Mesure 7: 67.302627ms
+Mesure 8: 65.027683ms
+Mesure 9: 73.996412ms
+Mesure 10: 74.32096ms
+Moyenne: 69.21989ms
+
+Mesures individuelles pour Supérieur strictement:
+Mesure 1: 70.427702ms
+Mesure 2: 64.73101ms
+Mesure 3: 73.916059ms
+Mesure 4: 64.581038ms
+Mesure 5: 64.79545ms
+Mesure 6: 64.633188ms
+Mesure 7: 64.690016ms
+Mesure 8: 82.933095ms
+Mesure 9: 64.965451ms
+Mesure 10: 64.844058ms
+Moyenne: 68.051706ms
+
+Mesures individuelles pour Supérieur ou égal:
+Mesure 1: 64.978489ms
+Mesure 2: 64.873411ms
+Mesure 3: 64.505323ms
+Mesure 4: 64.626117ms
+Mesure 5: 64.635611ms
+Mesure 6: 64.681373ms
+Mesure 7: 65.00859ms
+Mesure 8: 89.030107ms
+Mesure 9: 64.896979ms
+Mesure 10: 64.639354ms
+Moyenne: 67.187535ms

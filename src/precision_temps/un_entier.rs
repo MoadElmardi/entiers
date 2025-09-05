@@ -3,8 +3,9 @@ use tfhe::integer::bigint::StaticUnsignedBigInt;
 use tfhe::prelude::*;
 use tfhe::{generate_keys, set_server_key, ConfigBuilder, FheUint2048, FheUint8};
 use std::time::{Duration, Instant};
+use std::io::{Write, BufWriter};
 
-const N: usize = 100;
+const N: usize = 10;
 
 fn mean(durations: &[Duration]) -> Duration {
     durations.iter().sum::<Duration>() / (durations.len() as u32)
@@ -22,6 +23,21 @@ fn std_dev(durations: &[Duration], mean: Duration) -> Duration {
     Duration::from_secs_f64(var.sqrt())
 }
 
+fn write_durations_to_file(durations: &[Duration], operation_name: &str) -> std::io::Result<()> {
+    let file = std::fs::OpenOptions::new().create(true).append(true).open("résultats/resultats_temps_mesures.txt")?;
+    
+    let mut writer = BufWriter::new(file);
+
+    writeln!(writer, "\nMesures individuelles pour {}:", operation_name)?;
+    for (i, duration) in durations.iter().enumerate() {
+        writeln!(writer, "Mesure {}: {:?}", i + 1, duration)?;
+    }
+
+    let moyenne = mean(&durations);
+    writeln!(writer, "Moyenne: {:?}", moyenne)?;
+    Ok(())
+}
+
 pub fn main() -> Result<(), Box<dyn std::error::Error>> {
     let config = ConfigBuilder::default().build();
     // Génération des clés
@@ -30,7 +46,7 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Chiffrement des entiers
     let a = 150u64;
-    //let a = BigUint::from(150u128);
+    //let a = BigUint::from(150u256);
 
     let mut encrypt_times = Vec::with_capacity(N);
     let mut op_times = Vec::with_capacity(N);
@@ -63,7 +79,7 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         // Opération homomorphe (multiplication par une constante)
         let start_op = Instant::now();
-        let ctxt_result3 = &ctxt_a * StaticUnsignedBigInt::<32>::from(2u64);
+        let ctxt_result3 = &ctxt_a * StaticUnsignedBigInt::<32>::from(25u64);
         let op_duration3 = start_op.elapsed();
 
         let ctxt_a6 = ctxt_a.clone();
@@ -103,7 +119,7 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
         // pour vérifier la validité
         assert_eq!(result, a >> 2); 
         assert_eq!(result2, a + 25);
-        assert_eq!(result3, a * 2);
+        assert_eq!(result3, a * 25);
         assert_eq!(result5, a & 0);
         assert_eq!(result6, !a);
         assert_eq!(result7, a | 0);
@@ -146,38 +162,47 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
         "Chiffrement: moyenne = {:?}, écart-type = {:?}",
         encrypt_mean, encrypt_std
     );
+    let _ = write_durations_to_file(&encrypt_times, "Chiffrement");
     println!(
         "Shift  : moyenne = {:?}, écart-type = {:?}",
         op_mean, op_std
     );
+    let _ = write_durations_to_file(&op_times, "Shift");
     println!(
         "Addition d'une constante  : moyenne = {:?}, écart-type = {:?}",
         op2_mean, op2_std
     );
+    let _ = write_durations_to_file(&op2_times, "Addition constante");
     println!(
         "Multiplication par une constante  : moyenne = {:?}, écart-type = {:?}",
         op3_mean, op3_std
     );
+    let _ = write_durations_to_file(&op3_times, "Multiplication constante");
     println!(
         "Casting  : moyenne = {:?}, écart-type = {:?}",
         op4_mean, op4_std
     );
+    let _ = write_durations_to_file(&op4_times, "Casting");
     println!(
         "ET binaire : moyenne = {:?}, écart-type = {:?}",
         op5_mean, op5_std
     );
+    let _ = write_durations_to_file(&op5_times, "ET binaire");
     println!(
         "OU binaire  : moyenne = {:?}, écart-type = {:?}",
         op7_mean, op7_std
     );
+    let _ = write_durations_to_file(&op7_times, "OU binaire");
     println!(
         "NOT  : moyenne = {:?}, écart-type = {:?}",
         op6_mean, op6_std
     );
+    let _ = write_durations_to_file(&op6_times, "NOT");
     println!(
         "Déchiffrement: moyenne = {:?}, écart-type = {:?}",
         decrypt_mean, decrypt_std
     );
+    let _ = write_durations_to_file(&decrypt_times, "Dechiffrement");
 
     Ok(())
 }

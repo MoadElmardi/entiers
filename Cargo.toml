@@ -15,6 +15,14 @@ procfs = "0.17.0"
 # name = "keygen"
 # path = "src/consommation/keygen.rs"
 
+[[bin]]
+name = "un_entier"
+path = "src/precision_temps/un_entier.rs"
+
+[[bin]]
+name = "deux_entiers"
+path = "src/precision_temps/deux_entiers.rs"
+
 # [[bin]]
 # name = "encrypt"
 # path = "src/consommation/encrypt.rs"
@@ -70,4 +78,12 @@ path = "src/consommation/factoriel.rs"
 [[bin]]
 name = "securite"
 path = "src/consommation/securite.rs"
+
+[[bin]]
+name = "soustraction"
+path = "src/consommation/soustraction.rs"
+
+[[bin]]
+name = "operation_temps"
+path = "src/precision_temps/operation_temps.rs"
 

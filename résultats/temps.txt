@@ -1,0 +1,12 @@
+*** Programmes FheUint64:
+Soustraction:
+1894289713 nanosecondes (1894,290 ms)
+
+Addition:
+1837564950 nanosecondes (1837,565 ms)
+
+Multiplication:
+14282273838 nanosecondes (14282,274 ms)
+
+Division:
+72462064449 nanosecondes (72462,064 ms)
