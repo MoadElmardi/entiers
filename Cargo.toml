@@ -23,13 +23,13 @@ procfs = "0.17.0"
 # name = "add"
 # path = "src/consommation/add.rs"
 
-# [[bin]]
-# name = "decrypt"
-# path = "src/consommation/decrypt.rs"
+[[bin]]
+name = "programme_temps"
+path = "src/precision_temps/programme_temps.rs"
 
-# [[bin]]
-# name = "add2"
-# path = "src/consommation/add2.rs"
+[[bin]]
+name = "tri_liste"
+path = "src/precision_temps/tri_liste.rs"
 
 [[bin]]
 name = "addition"

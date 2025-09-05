@@ -92,29 +92,34 @@ pub fn main() -> Result<(), Box<dyn std::error::Error>> {
     let (client_key, server_keys) = generate_keys(config);
     set_server_key(server_keys);
 
-    let mut plaintexts = generate_sample_vector(2048);
-    println!("Liste: {:?}", plaintexts);
-    let mut list: Vec<FheUint16> = plaintexts
-        .iter()
-        .map(|&x| FheUint16::try_encrypt(x, &client_key).unwrap())
-        .collect();
+    for i in 0..5 {
+        println!("Itération {:?}", i+1);
+        let plaintexts = generate_sample_vector(256);
+        println!("Liste: {:?}", plaintexts);
+        let mut list: Vec<FheUint16> = plaintexts
+            .iter()
+            .map(|&x| FheUint16::try_encrypt(x, &client_key).unwrap())
+            .collect();
 
-    let start_sort = Instant::now();
-    bitonic_sort_plain(&mut plaintexts, true);
-    let duration_sort_plain = start_sort.elapsed();
+        // let start_sort = Instant::now();
+        // bitonic_sort_plain(&mut plaintexts, true);
+        // let duration_sort_plain = start_sort.elapsed();
 
-    let start_sort = Instant::now();
-    bitonic_sort(&mut list, true);
-    let duration_sort = start_sort.elapsed();
+        let start_sort = Instant::now();
+        bitonic_sort(&mut list, true);
+        let duration_sort = start_sort.elapsed();
 
-    let dechiffre: Vec<u16> = list
-        .iter()
-        .map(|x| x.decrypt(&client_key))
-        .collect();
+        let _dechiffre: Vec<u16> = list
+            .iter()
+            .map(|x| x.decrypt(&client_key))
+            .collect();
 
-    println!("Tri: {:?}", dechiffre);
-    println!("Duration de tri: {:?}", duration_sort_plain);
-    println!("Duration de tri chiffré: {:?}", duration_sort);
+        // println!("Tri: {:?}", dechiffre);
+        // println!("Duration de tri: {:?}", duration_sort_plain);
+        println!("Duration de tri chiffré: {:?}", duration_sort);
+    }
+
+    
 
     Ok(())
 }
